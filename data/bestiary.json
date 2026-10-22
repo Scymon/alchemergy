@@ -1,0 +1,743 @@
+[
+ {
+  "id": "amino_acid",
+  "name": "Amino Acid",
+  "category": "bestiary",
+  "subcategory": "organic molecule",
+  "tier": 3,
+  "depth": 10,
+  "recipe": [
+   "ammonia",
+   "methane"
+  ],
+  "fact": "Found in meteorites and made in the Miller-Urey experiment."
+ },
+ {
+  "id": "nucleotide",
+  "name": "Nucleotide",
+  "category": "bestiary",
+  "subcategory": "organic molecule",
+  "tier": 3,
+  "depth": 15,
+  "recipe": [
+   "phosphorus",
+   "sugar"
+  ],
+  "fact": "The letters of the genetic code."
+ },
+ {
+  "id": "lipid",
+  "name": "Lipid",
+  "category": "bestiary",
+  "subcategory": "organic molecule",
+  "tier": 3,
+  "depth": 9,
+  "recipe": [
+   "methane",
+   "water"
+  ],
+  "fact": "Self-assembles into bubbles: the first cell walls."
+ },
+ {
+  "id": "protein",
+  "name": "Protein",
+  "category": "bestiary",
+  "subcategory": "organic molecule",
+  "tier": 3,
+  "depth": 11,
+  "recipe": [
+   "amino_acid",
+   "amino_acid"
+  ],
+  "fact": "Your body has tens of thousands of kinds."
+ },
+ {
+  "id": "rna",
+  "name": "RNA",
+  "category": "bestiary",
+  "subcategory": "organic molecule",
+  "tier": 3,
+  "depth": 16,
+  "recipe": [
+   "nucleotide",
+   "nucleotide"
+  ],
+  "fact": "Can store information and catalyze reactions."
+ },
+ {
+  "id": "dna",
+  "name": "DNA",
+  "category": "bestiary",
+  "subcategory": "organic molecule",
+  "tier": 3,
+  "depth": 17,
+  "recipe": [
+   "rna",
+   "protein"
+  ],
+  "fact": "About 2 meters of it in every human cell."
+ },
+ {
+  "id": "primordial_soup",
+  "name": "Primordial Soup",
+  "category": "bestiary",
+  "subcategory": "organic molecule",
+  "tier": 3,
+  "depth": 11,
+  "recipe": [
+   "amino_acid",
+   "water"
+  ],
+  "fact": "Darwin imagined life starting in a 'warm little pond'."
+ },
+ {
+  "id": "protocell",
+  "name": "Protocell",
+  "category": "bestiary",
+  "subcategory": "cell",
+  "tier": 4,
+  "depth": 17,
+  "recipe": [
+   "lipid",
+   "rna"
+  ],
+  "fact": "A membrane bubble holding self-copying molecules."
+ },
+ {
+  "id": "bacterium",
+  "name": "Bacterium",
+  "category": "bestiary",
+  "subcategory": "microbe",
+  "tier": 4,
+  "depth": 18,
+  "recipe": [
+   "protocell",
+   "dna"
+  ],
+  "fact": "You carry about as many bacterial cells as human cells."
+ },
+ {
+  "id": "archaea",
+  "name": "Archaea",
+  "category": "bestiary",
+  "subcategory": "microbe",
+  "tier": 4,
+  "depth": 19,
+  "recipe": [
+   "bacterium",
+   "methane"
+  ],
+  "fact": "Some thrive in boiling acid springs."
+ },
+ {
+  "id": "cyanobacteria",
+  "name": "Cyanobacteria",
+  "category": "bestiary",
+  "subcategory": "microbe",
+  "tier": 4,
+  "depth": 19,
+  "recipe": [
+   "bacterium",
+   "photon"
+  ],
+  "fact": "Filled Earth's air with oxygen."
+ },
+ {
+  "id": "eukaryote",
+  "name": "Eukaryote",
+  "category": "bestiary",
+  "subcategory": "cell",
+  "tier": 4,
+  "depth": 20,
+  "recipe": [
+   "bacterium",
+   "archaea"
+  ],
+  "fact": "Born when one microbe engulfed another."
+ },
+ {
+  "id": "algae",
+  "name": "Algae",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 21,
+  "recipe": [
+   "eukaryote",
+   "photon"
+  ],
+  "fact": "Produce about half of Earth's oxygen."
+ },
+ {
+  "id": "plankton",
+  "name": "Plankton",
+  "category": "bestiary",
+  "subcategory": "microbe",
+  "tier": 5,
+  "depth": 22,
+  "recipe": [
+   "algae",
+   "water"
+  ],
+  "fact": "Name means 'drifter' in Greek."
+ },
+ {
+  "id": "fungus",
+  "name": "Fungus",
+  "category": "bestiary",
+  "subcategory": "microbe",
+  "tier": 4,
+  "depth": 21,
+  "recipe": [
+   "eukaryote",
+   "sugar"
+  ],
+  "fact": "Closer relatives of animals than of plants."
+ },
+ {
+  "id": "lichen",
+  "name": "Lichen",
+  "category": "bestiary",
+  "subcategory": "microbe",
+  "tier": 5,
+  "depth": 22,
+  "recipe": [
+   "fungus",
+   "algae"
+  ],
+  "fact": "A partnership that can survive in space."
+ },
+ {
+  "id": "moss",
+  "name": "Moss",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 22,
+  "recipe": [
+   "algae",
+   "clay"
+  ],
+  "fact": "Among the first plants on land."
+ },
+ {
+  "id": "soil",
+  "name": "Soil",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 22,
+  "recipe": [
+   "sand",
+   "fungus"
+  ],
+  "fact": "A handful holds more microbes than people on Earth."
+ },
+ {
+  "id": "fern",
+  "name": "Fern",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 23,
+  "recipe": [
+   "moss",
+   "water"
+  ],
+  "fact": "Ferns predate dinosaurs."
+ },
+ {
+  "id": "tree",
+  "name": "Tree",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 24,
+  "recipe": [
+   "fern",
+   "soil"
+  ],
+  "fact": "There are about 3 trillion trees on Earth."
+ },
+ {
+  "id": "wood",
+  "name": "Wood",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 25,
+  "recipe": [
+   "tree",
+   "tree"
+  ],
+  "fact": "Made largely of cellulose and lignin."
+ },
+ {
+  "id": "rubber_tree",
+  "name": "Rubber Tree",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 25,
+  "recipe": [
+   "tree",
+   "water"
+  ],
+  "fact": "Native to the Amazon basin."
+ },
+ {
+  "id": "grass",
+  "name": "Grass",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 23,
+  "recipe": [
+   "moss",
+   "soil"
+  ],
+  "fact": "Grasses evolved alongside dinosaurs."
+ },
+ {
+  "id": "flower",
+  "name": "Flower",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 24,
+  "recipe": [
+   "fern",
+   "sugar"
+  ],
+  "fact": "Flowers appeared about 130 million years ago."
+ },
+ {
+  "id": "fruit",
+  "name": "Fruit",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 25,
+  "recipe": [
+   "flower",
+   "water"
+  ],
+  "fact": "Evolved to get animals to spread seeds."
+ },
+ {
+  "id": "wheat",
+  "name": "Wheat",
+  "category": "bestiary",
+  "subcategory": "plant",
+  "tier": 5,
+  "depth": 24,
+  "recipe": [
+   "grass",
+   "photon"
+  ],
+  "fact": "Domesticated about 10,000 years ago."
+ },
+ {
+  "id": "sponge",
+  "name": "Sponge",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 21,
+  "recipe": [
+   "eukaryote",
+   "silica"
+  ],
+  "fact": "Possibly the oldest animal lineage."
+ },
+ {
+  "id": "jellyfish",
+  "name": "Jellyfish",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 23,
+  "recipe": [
+   "plankton",
+   "protein"
+  ],
+  "fact": "One species is biologically immortal."
+ },
+ {
+  "id": "worm",
+  "name": "Worm",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 23,
+  "recipe": [
+   "eukaryote",
+   "soil"
+  ],
+  "fact": "Darwin wrote a whole book on earthworms."
+ },
+ {
+  "id": "fish",
+  "name": "Fish",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 24,
+  "recipe": [
+   "worm",
+   "water"
+  ],
+  "fact": "More species than all other vertebrates combined."
+ },
+ {
+  "id": "shark",
+  "name": "Shark",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 25,
+  "recipe": [
+   "fish",
+   "fish"
+  ],
+  "fact": "Older than trees."
+ },
+ {
+  "id": "insect",
+  "name": "Insect",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 24,
+  "recipe": [
+   "worm",
+   "grass"
+  ],
+  "fact": "About 10 quintillion alive at any time."
+ },
+ {
+  "id": "bee",
+  "name": "Bee",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 25,
+  "recipe": [
+   "insect",
+   "flower"
+  ],
+  "fact": "Bees dance to share directions."
+ },
+ {
+  "id": "butterfly",
+  "name": "Butterfly",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 26,
+  "recipe": [
+   "insect",
+   "fruit"
+  ],
+  "fact": "Tastes with its feet."
+ },
+ {
+  "id": "spider",
+  "name": "Spider",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 25,
+  "recipe": [
+   "insect",
+   "insect"
+  ],
+  "fact": "Spider silk rivals steel in strength."
+ },
+ {
+  "id": "frog",
+  "name": "Frog",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 25,
+  "recipe": [
+   "fish",
+   "moss"
+  ],
+  "fact": "Some frogs freeze solid and thaw in spring."
+ },
+ {
+  "id": "lizard",
+  "name": "Lizard",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 26,
+  "recipe": [
+   "frog",
+   "sand"
+  ],
+  "fact": "Some lizards can run on water."
+ },
+ {
+  "id": "dinosaur",
+  "name": "Dinosaur",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 27,
+  "recipe": [
+   "lizard",
+   "lizard"
+  ],
+  "fact": "Ruled the Earth for about 165 million years."
+ },
+ {
+  "id": "bird",
+  "name": "Bird",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "dinosaur",
+   "insect"
+  ],
+  "fact": "Birds are living dinosaurs."
+ },
+ {
+  "id": "mammal",
+  "name": "Early Mammal",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 27,
+  "recipe": [
+   "lizard",
+   "fruit"
+  ],
+  "fact": "Early mammals were small and nocturnal."
+ },
+ {
+  "id": "horse",
+  "name": "Horse",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "mammal",
+   "grass"
+  ],
+  "fact": "Can sleep standing up."
+ },
+ {
+  "id": "whale",
+  "name": "Whale",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "mammal",
+   "fish"
+  ],
+  "fact": "Blue whales are the largest animals ever."
+ },
+ {
+  "id": "wolf",
+  "name": "Wolf",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "mammal",
+   "mammal"
+  ],
+  "fact": "Every dog descends from wolves."
+ },
+ {
+  "id": "primate",
+  "name": "Primate",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "mammal",
+   "tree"
+  ],
+  "fact": "Forward-facing eyes for judging jumps between branches."
+ },
+ {
+  "id": "human",
+  "name": "Human",
+  "category": "bestiary",
+  "subcategory": "animal",
+  "tier": 6,
+  "depth": 29,
+  "recipe": [
+   "primate",
+   "fire"
+  ],
+  "fact": "Cooking may have helped grow our big brains."
+ },
+ {
+  "id": "slime",
+  "name": "Alchemical Slime",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 80,
+  "recipe": [
+   "protocell",
+   "mercury"
+  ],
+  "fact": "The alchemists' prima materia, given life."
+ },
+ {
+  "id": "homunculus",
+  "name": "Homunculus",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 80,
+  "recipe": [
+   "human",
+   "mercury"
+  ],
+  "fact": "Paracelsus claimed a recipe for a tiny artificial man."
+ },
+ {
+  "id": "golem",
+  "name": "Golem",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 30,
+  "recipe": [
+   "clay",
+   "human"
+  ],
+  "fact": "A clay guardian from Jewish folklore."
+ },
+ {
+  "id": "salamander",
+  "name": "Fire Salamander",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 27,
+  "recipe": [
+   "lizard",
+   "fire"
+  ],
+  "fact": "Alchemists' elemental spirit of fire."
+ },
+ {
+  "id": "phoenix",
+  "name": "Phoenix",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 29,
+  "recipe": [
+   "bird",
+   "fire"
+  ],
+  "fact": "Reborn from its own ashes."
+ },
+ {
+  "id": "dragon",
+  "name": "Dragon",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 28,
+  "recipe": [
+   "dinosaur",
+   "fire"
+  ],
+  "fact": "Dinosaur fossils may have inspired dragon myths."
+ },
+ {
+  "id": "unicorn",
+  "name": "Unicorn",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 29,
+  "recipe": [
+   "horse",
+   "diamond"
+  ],
+  "fact": "Narwhal tusks were once sold as unicorn horns."
+ },
+ {
+  "id": "hippogriff",
+  "name": "Hippogriff",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 29,
+  "recipe": [
+   "bird",
+   "horse"
+  ],
+  "fact": "Half eagle, half horse."
+ },
+ {
+  "id": "kraken",
+  "name": "Kraken",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 29,
+  "recipe": [
+   "jellyfish",
+   "whale"
+  ],
+  "fact": "Possibly inspired by giant squid."
+ },
+ {
+  "id": "philosophers_stone",
+  "name": "Philosopher's Stone",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 81,
+  "recipe": [
+   "gold",
+   "homunculus"
+  ],
+  "fact": "The alchemists' ultimate goal: turning lead to gold."
+ },
+ {
+  "id": "star_whale",
+  "name": "Star Whale",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 29,
+  "recipe": [
+   "whale",
+   "nebula"
+  ],
+  "fact": "A leviathan that swims between stars."
+ },
+ {
+  "id": "void_wyrm",
+  "name": "Void Wyrm",
+  "category": "bestiary",
+  "subcategory": "mythic",
+  "tier": 7,
+  "depth": 29,
+  "recipe": [
+   "dragon",
+   "black_hole"
+  ],
+  "fact": "Devours light itself."
+ }
+]

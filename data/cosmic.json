@@ -1,0 +1,574 @@
+[
+ {
+  "id": "gas_cloud",
+  "name": "Gas Cloud",
+  "category": "cosmic",
+  "subcategory": "nebula",
+  "tier": 1,
+  "depth": 1,
+  "recipe": [
+   "hydrogen",
+   "photon"
+  ],
+  "fact": "Interstellar gas averages about one atom per cubic cm."
+ },
+ {
+  "id": "nebula",
+  "name": "Nebula",
+  "category": "cosmic",
+  "subcategory": "nebula",
+  "tier": 1,
+  "depth": 2,
+  "recipe": [
+   "gas_cloud",
+   "gas_cloud"
+  ],
+  "fact": "Stellar nurseries light-years across."
+ },
+ {
+  "id": "cosmic_dust",
+  "name": "Cosmic Dust",
+  "category": "cosmic",
+  "subcategory": "nebula",
+  "tier": 1,
+  "depth": 6,
+  "recipe": [
+   "carbon",
+   "nebula"
+  ],
+  "fact": "Tons of it fall on Earth every day."
+ },
+ {
+  "id": "protostar",
+  "name": "Protostar",
+  "category": "cosmic",
+  "subcategory": "star",
+  "tier": 2,
+  "depth": 3,
+  "recipe": [
+   "nebula",
+   "hydrogen"
+  ],
+  "fact": "A collapsing cloud heating toward ignition."
+ },
+ {
+  "id": "star",
+  "name": "Star",
+  "category": "cosmic",
+  "subcategory": "star",
+  "tier": 2,
+  "depth": 4,
+  "recipe": [
+   "protostar",
+   "helium"
+  ],
+  "fact": "The Sun fuses 600 million tons of hydrogen per second."
+ },
+ {
+  "id": "brown_dwarf",
+  "name": "Brown Dwarf",
+  "category": "cosmic",
+  "subcategory": "star",
+  "tier": 2,
+  "depth": 7,
+  "recipe": [
+   "protostar",
+   "methane"
+  ],
+  "fact": "Too small to fuse hydrogen: a failed star."
+ },
+ {
+  "id": "red_dwarf",
+  "name": "Red Dwarf",
+  "category": "cosmic",
+  "subcategory": "star",
+  "tier": 2,
+  "depth": 7,
+  "recipe": [
+   "protostar",
+   "cosmic_dust"
+  ],
+  "fact": "The most common stars; they live trillions of years."
+ },
+ {
+  "id": "red_giant",
+  "name": "Red Giant",
+  "category": "cosmic",
+  "subcategory": "star",
+  "tier": 2,
+  "depth": 6,
+  "recipe": [
+   "star",
+   "carbon"
+  ],
+  "fact": "The Sun will swell into one in about 5 billion years."
+ },
+ {
+  "id": "white_dwarf",
+  "name": "White Dwarf",
+  "category": "cosmic",
+  "subcategory": "stellar remnant",
+  "tier": 5,
+  "depth": 8,
+  "recipe": [
+   "red_giant",
+   "oxygen"
+  ],
+  "fact": "A teaspoon weighs about 5 tons."
+ },
+ {
+  "id": "planetary_nebula",
+  "name": "Planetary Nebula",
+  "category": "cosmic",
+  "subcategory": "nebula",
+  "tier": 2,
+  "depth": 7,
+  "recipe": [
+   "red_giant",
+   "photon"
+  ],
+  "fact": "Nothing to do with planets: a dying star's shell."
+ },
+ {
+  "id": "blue_supergiant",
+  "name": "Blue Supergiant",
+  "category": "cosmic",
+  "subcategory": "star",
+  "tier": 2,
+  "depth": 5,
+  "recipe": [
+   "star",
+   "star"
+  ],
+  "fact": "Burns out in only a few million years."
+ },
+ {
+  "id": "supernova",
+  "name": "Supernova",
+  "category": "cosmic",
+  "subcategory": "stellar remnant",
+  "tier": 5,
+  "depth": 26,
+  "recipe": [
+   "blue_supergiant",
+   "iron"
+  ],
+  "fact": "An iron core collapses in under a second."
+ },
+ {
+  "id": "neutron_star",
+  "name": "Neutron Star",
+  "category": "cosmic",
+  "subcategory": "stellar remnant",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "supernova",
+   "neutron"
+  ],
+  "fact": "A city-sized ball denser than an atomic nucleus."
+ },
+ {
+  "id": "pulsar",
+  "name": "Pulsar",
+  "category": "cosmic",
+  "subcategory": "stellar remnant",
+  "tier": 5,
+  "depth": 28,
+  "recipe": [
+   "neutron_star",
+   "photon"
+  ],
+  "fact": "Some spin over 700 times a second."
+ },
+ {
+  "id": "magnetar",
+  "name": "Magnetar",
+  "category": "cosmic",
+  "subcategory": "stellar remnant",
+  "tier": 5,
+  "depth": 61,
+  "recipe": [
+   "pulsar",
+   "neodymium_magnet"
+  ],
+  "fact": "The strongest magnets in the universe."
+ },
+ {
+  "id": "kilonova",
+  "name": "Kilonova",
+  "category": "cosmic",
+  "subcategory": "stellar remnant",
+  "tier": 5,
+  "depth": 28,
+  "recipe": [
+   "neutron_star",
+   "neutron_star"
+  ],
+  "fact": "Neutron-star collisions forge gold and platinum."
+ },
+ {
+  "id": "black_hole",
+  "name": "Black Hole",
+  "category": "cosmic",
+  "subcategory": "black hole",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "neutron_star",
+   "blue_supergiant"
+  ],
+  "fact": "Not even light escapes past its event horizon."
+ },
+ {
+  "id": "planetesimal",
+  "name": "Planetesimal",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 7,
+  "recipe": [
+   "cosmic_dust",
+   "cosmic_dust"
+  ],
+  "fact": "Building blocks of planets."
+ },
+ {
+  "id": "asteroid",
+  "name": "Asteroid",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 26,
+  "recipe": [
+   "planetesimal",
+   "iron"
+  ],
+  "fact": "Some are almost pure metal."
+ },
+ {
+  "id": "comet",
+  "name": "Comet",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 9,
+  "recipe": [
+   "planetesimal",
+   "water"
+  ],
+  "fact": "A dirty snowball with a tail pointing away from the Sun."
+ },
+ {
+  "id": "rocky_planet",
+  "name": "Rocky Planet",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 27,
+  "recipe": [
+   "asteroid",
+   "asteroid"
+  ],
+  "fact": "Built up by countless collisions."
+ },
+ {
+  "id": "earth",
+  "name": "Earth",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 28,
+  "recipe": [
+   "rocky_planet",
+   "water"
+  ],
+  "fact": "The only known world with life (so far)."
+ },
+ {
+  "id": "mars",
+  "name": "Mars",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 28,
+  "recipe": [
+   "rocky_planet",
+   "iron_oxide"
+  ],
+  "fact": "Its red color is literally rust."
+ },
+ {
+  "id": "moon",
+  "name": "Moon",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 28,
+  "recipe": [
+   "rocky_planet",
+   "rocky_planet"
+  ],
+  "fact": "Likely formed when a Mars-sized body hit Earth."
+ },
+ {
+  "id": "gas_giant",
+  "name": "Gas Giant",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 28,
+  "recipe": [
+   "rocky_planet",
+   "gas_cloud"
+  ],
+  "fact": "Jupiter could hold over 1,300 Earths."
+ },
+ {
+  "id": "ice_giant",
+  "name": "Ice Giant",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 29,
+  "recipe": [
+   "gas_giant",
+   "ammonia"
+  ],
+  "fact": "It may rain diamonds inside Neptune."
+ },
+ {
+  "id": "ring_system",
+  "name": "Ring System",
+  "category": "cosmic",
+  "subcategory": "planet",
+  "tier": 3,
+  "depth": 29,
+  "recipe": [
+   "gas_giant",
+   "comet"
+  ],
+  "fact": "Saturn's rings are mostly water ice."
+ },
+ {
+  "id": "solar_system",
+  "name": "Solar System",
+  "category": "cosmic",
+  "subcategory": "system",
+  "tier": 4,
+  "depth": 29,
+  "recipe": [
+   "star",
+   "earth"
+  ],
+  "fact": "Formed 4.6 billion years ago."
+ },
+ {
+  "id": "star_cluster",
+  "name": "Star Cluster",
+  "category": "cosmic",
+  "subcategory": "system",
+  "tier": 4,
+  "depth": 30,
+  "recipe": [
+   "solar_system",
+   "solar_system"
+  ],
+  "fact": "Globular clusters hold up to millions of stars."
+ },
+ {
+  "id": "supermassive_black_hole",
+  "name": "Supermassive Black Hole",
+  "category": "cosmic",
+  "subcategory": "black hole",
+  "tier": 6,
+  "depth": 29,
+  "recipe": [
+   "black_hole",
+   "black_hole"
+  ],
+  "fact": "Sagittarius A* weighs 4 million Suns."
+ },
+ {
+  "id": "galaxy",
+  "name": "Galaxy",
+  "category": "cosmic",
+  "subcategory": "galaxy",
+  "tier": 8,
+  "depth": 31,
+  "recipe": [
+   "star_cluster",
+   "supermassive_black_hole"
+  ],
+  "fact": "The Milky Way has 100-400 billion stars."
+ },
+ {
+  "id": "quasar",
+  "name": "Quasar",
+  "category": "cosmic",
+  "subcategory": "galaxy",
+  "tier": 8,
+  "depth": 30,
+  "recipe": [
+   "supermassive_black_hole",
+   "gas_cloud"
+  ],
+  "fact": "Can outshine its entire host galaxy."
+ },
+ {
+  "id": "ultramassive_black_hole",
+  "name": "Ultramassive Black Hole",
+  "category": "cosmic",
+  "subcategory": "black hole",
+  "tier": 8,
+  "depth": 31,
+  "recipe": [
+   "supermassive_black_hole",
+   "quasar"
+  ],
+  "fact": "Over 10 billion solar masses."
+ },
+ {
+  "id": "galaxy_cluster",
+  "name": "Galaxy Cluster",
+  "category": "cosmic",
+  "subcategory": "large-scale structure",
+  "tier": 9,
+  "depth": 32,
+  "recipe": [
+   "galaxy",
+   "galaxy"
+  ],
+  "fact": "The largest gravitationally bound objects."
+ },
+ {
+  "id": "supercluster",
+  "name": "Supercluster",
+  "category": "cosmic",
+  "subcategory": "large-scale structure",
+  "tier": 9,
+  "depth": 33,
+  "recipe": [
+   "galaxy_cluster",
+   "galaxy_cluster"
+  ],
+  "fact": "We live in the Laniakea Supercluster."
+ },
+ {
+  "id": "cosmic_web",
+  "name": "Cosmic Web",
+  "category": "cosmic",
+  "subcategory": "large-scale structure",
+  "tier": 9,
+  "depth": 34,
+  "recipe": [
+   "supercluster",
+   "supercluster"
+  ],
+  "fact": "Filaments of galaxies around vast voids."
+ },
+ {
+  "id": "dark_matter",
+  "name": "Dark Matter",
+  "category": "cosmic",
+  "subcategory": "exotic",
+  "tier": 10,
+  "depth": 32,
+  "recipe": [
+   "galaxy",
+   "photon"
+  ],
+  "fact": "About 5x more of it than normal matter."
+ },
+ {
+  "id": "dark_energy",
+  "name": "Dark Energy",
+  "category": "cosmic",
+  "subcategory": "exotic",
+  "tier": 10,
+  "depth": 35,
+  "recipe": [
+   "cosmic_web",
+   "dark_matter"
+  ],
+  "fact": "Is accelerating the expansion of the universe."
+ },
+ {
+  "id": "exotic_matter",
+  "name": "Exotic Matter",
+  "category": "cosmic",
+  "subcategory": "exotic",
+  "tier": 10,
+  "depth": 58,
+  "recipe": [
+   "dark_energy",
+   "particle_accelerator"
+  ],
+  "fact": "Hypothetical matter with negative energy density."
+ },
+ {
+  "id": "wormhole",
+  "name": "Wormhole",
+  "category": "cosmic",
+  "subcategory": "exotic",
+  "tier": 10,
+  "depth": 59,
+  "recipe": [
+   "black_hole",
+   "exotic_matter"
+  ],
+  "fact": "A shortcut through spacetime, if it exists."
+ },
+ {
+  "id": "white_hole",
+  "name": "White Hole",
+  "category": "cosmic",
+  "subcategory": "exotic",
+  "tier": 10,
+  "depth": 60,
+  "recipe": [
+   "wormhole",
+   "photon"
+  ],
+  "fact": "A black hole's time-reversed twin."
+ },
+ {
+  "id": "universe",
+  "name": "Universe",
+  "category": "cosmic",
+  "subcategory": "beyond",
+  "tier": 12,
+  "depth": 36,
+  "recipe": [
+   "cosmic_web",
+   "dark_energy"
+  ],
+  "fact": "About 93 billion light-years across (observable)."
+ },
+ {
+  "id": "big_bang",
+  "name": "Big Bang",
+  "category": "cosmic",
+  "subcategory": "beyond",
+  "tier": 12,
+  "depth": 61,
+  "recipe": [
+   "ultramassive_black_hole",
+   "white_hole"
+  ],
+  "fact": "Everything began 13.8 billion years ago."
+ },
+ {
+  "id": "multiverse",
+  "name": "Multiverse",
+  "category": "cosmic",
+  "subcategory": "beyond",
+  "tier": 12,
+  "depth": 37,
+  "recipe": [
+   "universe",
+   "universe"
+  ],
+  "fact": "The final merge: infinite universes."
+ }
+]

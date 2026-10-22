@@ -1,0 +1,21 @@
+# Godot 4
+.godot/
+.import/
+*.translation
+export_presets.cfg.bak
+# Export builds
+build/
+builds/
+export/
+*.apk
+*.aab
+*.idsig
+android/build/
+# Signing (never commit keystores)
+*.keystore
+*.jks
+# OS / editor
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

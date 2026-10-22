@@ -1,0 +1,314 @@
+[
+ {
+  "id": "rocket_fuel",
+  "name": "Rocket Fuel",
+  "category": "space",
+  "subcategory": "propulsion",
+  "tier": 9,
+  "depth": 28,
+  "recipe": [
+   "petrol",
+   "oxygen"
+  ],
+  "fact": "Kerosene and liquid oxygen powered Saturn V's first stage."
+ },
+ {
+  "id": "rocket",
+  "name": "Rocket",
+  "category": "space",
+  "subcategory": "launch",
+  "tier": 9,
+  "depth": 29,
+  "recipe": [
+   "rocket_fuel",
+   "titanium_alloy"
+  ],
+  "fact": "Must reach about 7.8 km/s to stay in orbit."
+ },
+ {
+  "id": "satellite",
+  "name": "Satellite",
+  "category": "space",
+  "subcategory": "orbital",
+  "tier": 9,
+  "depth": 33,
+  "recipe": [
+   "rocket",
+   "radio"
+  ],
+  "fact": "Sputnik beeped from orbit in 1957."
+ },
+ {
+  "id": "gps",
+  "name": "GPS",
+  "category": "space",
+  "subcategory": "orbital",
+  "tier": 9,
+  "depth": 34,
+  "recipe": [
+   "satellite",
+   "clock"
+  ],
+  "fact": "Must correct for relativity to stay accurate."
+ },
+ {
+  "id": "space_telescope",
+  "name": "Space Telescope",
+  "category": "space",
+  "subcategory": "orbital",
+  "tier": 9,
+  "depth": 34,
+  "recipe": [
+   "satellite",
+   "telescope"
+  ],
+  "fact": "JWST sees galaxies from 13+ billion years ago."
+ },
+ {
+  "id": "astronaut",
+  "name": "Astronaut",
+  "category": "space",
+  "subcategory": "crewed",
+  "tier": 9,
+  "depth": 30,
+  "recipe": [
+   "human",
+   "rocket"
+  ],
+  "fact": "Over 600 people have flown to space."
+ },
+ {
+  "id": "moon_landing",
+  "name": "Moon Landing",
+  "category": "space",
+  "subcategory": "crewed",
+  "tier": 9,
+  "depth": 31,
+  "recipe": [
+   "astronaut",
+   "moon"
+  ],
+  "fact": "Apollo 11 landed in 1969."
+ },
+ {
+  "id": "space_station",
+  "name": "Space Station",
+  "category": "space",
+  "subcategory": "crewed",
+  "tier": 9,
+  "depth": 34,
+  "recipe": [
+   "satellite",
+   "astronaut"
+  ],
+  "fact": "The ISS circles Earth every 90 minutes."
+ },
+ {
+  "id": "rtg",
+  "name": "Nuclear Battery (RTG)",
+  "category": "space",
+  "subcategory": "propulsion",
+  "tier": 9,
+  "depth": 94,
+  "recipe": [
+   "plutonium",
+   "battery"
+  ],
+  "fact": "Has powered Voyager for nearly 50 years."
+ },
+ {
+  "id": "space_probe",
+  "name": "Space Probe",
+  "category": "space",
+  "subcategory": "robotic",
+  "tier": 9,
+  "depth": 95,
+  "recipe": [
+   "satellite",
+   "rtg"
+  ],
+  "fact": "Voyager 1 is in interstellar space."
+ },
+ {
+  "id": "mars_rover",
+  "name": "Mars Rover",
+  "category": "space",
+  "subcategory": "robotic",
+  "tier": 9,
+  "depth": 63,
+  "recipe": [
+   "robot",
+   "mars"
+  ],
+  "fact": "Curiosity has driven over 30 km on Mars."
+ },
+ {
+  "id": "reusable_rocket",
+  "name": "Reusable Rocket",
+  "category": "space",
+  "subcategory": "launch",
+  "tier": 9,
+  "depth": 36,
+  "recipe": [
+   "rocket",
+   "ai"
+  ],
+  "fact": "Boosters now land themselves."
+ },
+ {
+  "id": "ion_drive",
+  "name": "Ion Drive",
+  "category": "space",
+  "subcategory": "propulsion",
+  "tier": 9,
+  "depth": 54,
+  "recipe": [
+   "xenon",
+   "electricity"
+  ],
+  "fact": "Gentle thrust but extremely efficient."
+ },
+ {
+  "id": "mars_colony",
+  "name": "Mars Colony",
+  "category": "space",
+  "subcategory": "crewed",
+  "tier": 9,
+  "depth": 35,
+  "recipe": [
+   "space_station",
+   "mars"
+  ],
+  "fact": "Mars has a day just 37 minutes longer than Earth's."
+ },
+ {
+  "id": "space_elevator",
+  "name": "Space Elevator",
+  "category": "space",
+  "subcategory": "megastructure",
+  "tier": 10,
+  "depth": 34,
+  "recipe": [
+   "carbon_nanotube",
+   "satellite"
+  ],
+  "fact": "A cable to orbit would replace rockets."
+ },
+ {
+  "id": "solar_sail",
+  "name": "Solar Sail",
+  "category": "space",
+  "subcategory": "propulsion",
+  "tier": 9,
+  "depth": 96,
+  "recipe": [
+   "space_probe",
+   "laser"
+  ],
+  "fact": "Sails on the pressure of light."
+ },
+ {
+  "id": "fusion_drive",
+  "name": "Fusion Drive",
+  "category": "space",
+  "subcategory": "propulsion",
+  "tier": 9,
+  "depth": 95,
+  "recipe": [
+   "fusion_reactor",
+   "rocket"
+  ],
+  "fact": "Could reach the outer planets in weeks."
+ },
+ {
+  "id": "starship",
+  "name": "Starship",
+  "category": "space",
+  "subcategory": "interstellar",
+  "tier": 10,
+  "depth": 96,
+  "recipe": [
+   "fusion_drive",
+   "space_station"
+  ],
+  "fact": "A city that can cross the void."
+ },
+ {
+  "id": "generation_ship",
+  "name": "Generation Ship",
+  "category": "space",
+  "subcategory": "interstellar",
+  "tier": 10,
+  "depth": 97,
+  "recipe": [
+   "starship",
+   "mars_colony"
+  ],
+  "fact": "Crews born en route to the stars."
+ },
+ {
+  "id": "dyson_swarm",
+  "name": "Dyson Swarm",
+  "category": "space",
+  "subcategory": "megastructure",
+  "tier": 10,
+  "depth": 17,
+  "recipe": [
+   "solar_panel",
+   "star"
+  ],
+  "fact": "Countless collectors orbiting a star."
+ },
+ {
+  "id": "dyson_sphere",
+  "name": "Dyson Sphere",
+  "category": "space",
+  "subcategory": "megastructure",
+  "tier": 10,
+  "depth": 18,
+  "recipe": [
+   "dyson_swarm",
+   "dyson_swarm"
+  ],
+  "fact": "Captures nearly all of a star's energy."
+ },
+ {
+  "id": "warp_drive",
+  "name": "Warp Drive",
+  "category": "space",
+  "subcategory": "interstellar",
+  "tier": 10,
+  "depth": 97,
+  "recipe": [
+   "starship",
+   "exotic_matter"
+  ],
+  "fact": "The Alcubierre metric bends space itself."
+ },
+ {
+  "id": "matrioshka_brain",
+  "name": "Matrioshka Brain",
+  "category": "space",
+  "subcategory": "megastructure",
+  "tier": 10,
+  "depth": 36,
+  "recipe": [
+   "dyson_sphere",
+   "ai"
+  ],
+  "fact": "A star-powered computer of nested shells."
+ },
+ {
+  "id": "galactic_empire",
+  "name": "Galactic Civilization",
+  "category": "space",
+  "subcategory": "megastructure",
+  "tier": 10,
+  "depth": 37,
+  "recipe": [
+   "matrioshka_brain",
+   "galaxy"
+  ],
+  "fact": "Kardashev Type III: harnessing a whole galaxy."
+ }
+]

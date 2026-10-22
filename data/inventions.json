@@ -1,0 +1,704 @@
+[
+ {
+  "id": "fire",
+  "name": "Fire",
+  "category": "inventions",
+  "subcategory": "primitive",
+  "tier": 5,
+  "depth": 26,
+  "recipe": [
+   "wood",
+   "oxygen"
+  ],
+  "fact": "Humans controlled fire at least 400,000 years ago."
+ },
+ {
+  "id": "stone_tool",
+  "name": "Stone Tool",
+  "category": "inventions",
+  "subcategory": "primitive",
+  "tier": 5,
+  "depth": 26,
+  "recipe": [
+   "granite",
+   "wood"
+  ],
+  "fact": "Stone tools are over 3.3 million years old."
+ },
+ {
+  "id": "spear",
+  "name": "Spear",
+  "category": "inventions",
+  "subcategory": "primitive",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "stone_tool",
+   "rope"
+  ],
+  "fact": "One of the oldest hunting tools."
+ },
+ {
+  "id": "rope",
+  "name": "Rope",
+  "category": "inventions",
+  "subcategory": "primitive",
+  "tier": 5,
+  "depth": 24,
+  "recipe": [
+   "grass",
+   "grass"
+  ],
+  "fact": "Neanderthals twisted fibers into cord."
+ },
+ {
+  "id": "wheel",
+  "name": "Wheel",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "wood",
+   "stone_tool"
+  ],
+  "fact": "Used for pottery before carts."
+ },
+ {
+  "id": "pottery",
+  "name": "Pottery",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "clay",
+   "fire"
+  ],
+  "fact": "Older than farming in East Asia."
+ },
+ {
+  "id": "kiln",
+  "name": "Kiln",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 28,
+  "recipe": [
+   "pottery",
+   "fire"
+  ],
+  "fact": "Reached temperatures that enabled metal smelting."
+ },
+ {
+  "id": "farm",
+  "name": "Agriculture",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 25,
+  "recipe": [
+   "wheat",
+   "soil"
+  ],
+  "fact": "Changed humans from foragers to farmers."
+ },
+ {
+  "id": "bread",
+  "name": "Bread",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "wheat",
+   "fire"
+  ],
+  "fact": "Older than agriculture itself."
+ },
+ {
+  "id": "boat",
+  "name": "Boat",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 26,
+  "recipe": [
+   "wood",
+   "rope"
+  ],
+  "fact": "Humans reached Australia by boat 50,000+ years ago."
+ },
+ {
+  "id": "writing",
+  "name": "Writing",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "clay",
+   "stone_tool"
+  ],
+  "fact": "Cuneiform began as tallies on clay."
+ },
+ {
+  "id": "book",
+  "name": "Book",
+  "category": "inventions",
+  "subcategory": "medieval",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "paper",
+   "writing"
+  ],
+  "fact": "The codex replaced scrolls in late antiquity."
+ },
+ {
+  "id": "forge",
+  "name": "Forge",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 29,
+  "recipe": [
+   "kiln",
+   "charcoal"
+  ],
+  "fact": "Blacksmiths shaped the Iron Age."
+ },
+ {
+  "id": "bronze_sword",
+  "name": "Bronze Sword",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 51,
+  "recipe": [
+   "bronze",
+   "stone_tool"
+  ],
+  "fact": "A Bronze Age high-tech weapon."
+ },
+ {
+  "id": "iron_tools",
+  "name": "Iron Tools",
+  "category": "inventions",
+  "subcategory": "ancient",
+  "tier": 5,
+  "depth": 30,
+  "recipe": [
+   "iron",
+   "forge"
+  ],
+  "fact": "Iron was cheaper and more plentiful than bronze."
+ },
+ {
+  "id": "compass",
+  "name": "Compass",
+  "category": "inventions",
+  "subcategory": "medieval",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "magnetite",
+   "wood"
+  ],
+  "fact": "First used in China for divination."
+ },
+ {
+  "id": "printing_press",
+  "name": "Printing Press",
+  "category": "inventions",
+  "subcategory": "medieval",
+  "tier": 6,
+  "depth": 31,
+  "recipe": [
+   "paper",
+   "iron_tools"
+  ],
+  "fact": "Gutenberg's press sped up the spread of knowledge."
+ },
+ {
+  "id": "cannon",
+  "name": "Cannon",
+  "category": "inventions",
+  "subcategory": "medieval",
+  "tier": 6,
+  "depth": 51,
+  "recipe": [
+   "gunpowder",
+   "bronze"
+  ],
+  "fact": "Bronze cannon were common for centuries."
+ },
+ {
+  "id": "lens",
+  "name": "Lens",
+  "category": "inventions",
+  "subcategory": "medieval",
+  "tier": 6,
+  "depth": 28,
+  "recipe": [
+   "glass",
+   "glass"
+  ],
+  "fact": "Eyeglasses appeared in Italy around 1290."
+ },
+ {
+  "id": "telescope",
+  "name": "Telescope",
+  "category": "inventions",
+  "subcategory": "renaissance",
+  "tier": 6,
+  "depth": 31,
+  "recipe": [
+   "lens",
+   "brass"
+  ],
+  "fact": "Galileo saw Jupiter's moons in 1610."
+ },
+ {
+  "id": "microscope",
+  "name": "Microscope",
+  "category": "inventions",
+  "subcategory": "renaissance",
+  "tier": 6,
+  "depth": 29,
+  "recipe": [
+   "lens",
+   "bacterium"
+  ],
+  "fact": "Van Leeuwenhoek first saw bacteria in 1676."
+ },
+ {
+  "id": "gear",
+  "name": "Gear",
+  "category": "inventions",
+  "subcategory": "renaissance",
+  "tier": 6,
+  "depth": 31,
+  "recipe": [
+   "brass",
+   "wheel"
+  ],
+  "fact": "The Antikythera mechanism had dozens of gears."
+ },
+ {
+  "id": "clock",
+  "name": "Clock",
+  "category": "inventions",
+  "subcategory": "renaissance",
+  "tier": 6,
+  "depth": 32,
+  "recipe": [
+   "gear",
+   "gear"
+  ],
+  "fact": "Marine clocks solved the longitude problem."
+ },
+ {
+  "id": "steam_engine",
+  "name": "Steam Engine",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 27,
+  "recipe": [
+   "steel",
+   "water"
+  ],
+  "fact": "Powered the Industrial Revolution."
+ },
+ {
+  "id": "locomotive",
+  "name": "Locomotive",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 28,
+  "recipe": [
+   "steam_engine",
+   "wheel"
+  ],
+  "fact": "Standardized time zones were invented for railways."
+ },
+ {
+  "id": "factory",
+  "name": "Factory",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 32,
+  "recipe": [
+   "steam_engine",
+   "gear"
+  ],
+  "fact": "Mass production reshaped society."
+ },
+ {
+  "id": "electricity",
+  "name": "Electricity",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 29,
+  "recipe": [
+   "copper",
+   "magnetite"
+  ],
+  "fact": "Faraday made the first generator in 1831."
+ },
+ {
+  "id": "battery",
+  "name": "Battery",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 30,
+  "recipe": [
+   "electricity",
+   "sulfuric_acid"
+  ],
+  "fact": "Volta stacked metal discs into the first battery."
+ },
+ {
+  "id": "lithium_battery",
+  "name": "Lithium Battery",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 31,
+  "recipe": [
+   "battery",
+   "lithium"
+  ],
+  "fact": "Earned a 2019 Nobel Prize."
+ },
+ {
+  "id": "electric_motor",
+  "name": "Electric Motor",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 61,
+  "recipe": [
+   "electricity",
+   "neodymium_magnet"
+  ],
+  "fact": "About half of the world's electricity runs motors."
+ },
+ {
+  "id": "light_bulb",
+  "name": "Light Bulb",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 30,
+  "recipe": [
+   "electricity",
+   "glass"
+  ],
+  "fact": "Tungsten filaments glow at over 2,500 °C."
+ },
+ {
+  "id": "telegraph",
+  "name": "Telegraph",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 30,
+  "recipe": [
+   "electricity",
+   "writing"
+  ],
+  "fact": "The first transatlantic cable was laid in 1858."
+ },
+ {
+  "id": "telephone",
+  "name": "Telephone",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 31,
+  "recipe": [
+   "telegraph",
+   "copper"
+  ],
+  "fact": "Bell's first words: 'Come here, I want to see you.'"
+ },
+ {
+  "id": "radio",
+  "name": "Radio",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 32,
+  "recipe": [
+   "telephone",
+   "quartz"
+  ],
+  "fact": "Quartz crystals tune radio frequencies."
+ },
+ {
+  "id": "vacuum_tube",
+  "name": "Vacuum Tube",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 33,
+  "recipe": [
+   "light_bulb",
+   "radio"
+  ],
+  "fact": "Early computers used thousands of them."
+ },
+ {
+  "id": "television",
+  "name": "Television",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 34,
+  "recipe": [
+   "radio",
+   "vacuum_tube"
+  ],
+  "fact": "Moving pictures carried by radio waves."
+ },
+ {
+  "id": "combustion_engine",
+  "name": "Combustion Engine",
+  "category": "inventions",
+  "subcategory": "industrial",
+  "tier": 7,
+  "depth": 28,
+  "recipe": [
+   "steel",
+   "petrol"
+  ],
+  "fact": "Burns fuel inside the cylinder."
+ },
+ {
+  "id": "car",
+  "name": "Car",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 29,
+  "recipe": [
+   "combustion_engine",
+   "wheel"
+  ],
+  "fact": "Over a billion are on the road today."
+ },
+ {
+  "id": "airplane",
+  "name": "Airplane",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 29,
+  "recipe": [
+   "combustion_engine",
+   "bird"
+  ],
+  "fact": "The Wright brothers flew 12 seconds in 1903."
+ },
+ {
+  "id": "transistor",
+  "name": "Transistor",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 30,
+  "recipe": [
+   "doped_silicon",
+   "electricity"
+  ],
+  "fact": "The most manufactured device in history."
+ },
+ {
+  "id": "integrated_circuit",
+  "name": "Integrated Circuit",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 31,
+  "recipe": [
+   "transistor",
+   "transistor"
+  ],
+  "fact": "Modern chips hold tens of billions of transistors."
+ },
+ {
+  "id": "computer",
+  "name": "Computer",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 33,
+  "recipe": [
+   "integrated_circuit",
+   "clock"
+  ],
+  "fact": "Every chip runs to the beat of a clock."
+ },
+ {
+  "id": "laser",
+  "name": "Laser",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 31,
+  "recipe": [
+   "light_bulb",
+   "ruby"
+  ],
+  "fact": "The first laser used a ruby crystal."
+ },
+ {
+  "id": "solar_panel",
+  "name": "Solar Panel",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 16,
+  "recipe": [
+   "doped_silicon",
+   "photon"
+  ],
+  "fact": "Photons knock electrons free to make current."
+ },
+ {
+  "id": "centrifuge",
+  "name": "Centrifuge",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 62,
+  "recipe": [
+   "electric_motor",
+   "steel"
+  ],
+  "fact": "Spins up to separate uranium isotopes."
+ },
+ {
+  "id": "nuclear_reactor",
+  "name": "Nuclear Reactor",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 93,
+  "recipe": [
+   "enriched_uranium",
+   "steel"
+  ],
+  "fact": "A natural reactor ran in Gabon 2 billion years ago."
+ },
+ {
+  "id": "particle_accelerator",
+  "name": "Particle Accelerator",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 57,
+  "recipe": [
+   "superconductor",
+   "electricity"
+  ],
+  "fact": "The LHC is 27 km around."
+ },
+ {
+  "id": "fusion_reactor",
+  "name": "Fusion Reactor",
+  "category": "inventions",
+  "subcategory": "futuristic",
+  "tier": 9,
+  "depth": 94,
+  "recipe": [
+   "nuclear_reactor",
+   "superconductor"
+  ],
+  "fact": "Aims to bottle a star on Earth."
+ },
+ {
+  "id": "internet",
+  "name": "Internet",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 34,
+  "recipe": [
+   "computer",
+   "telephone"
+  ],
+  "fact": "Began as ARPANET in 1969."
+ },
+ {
+  "id": "smartphone",
+  "name": "Smartphone",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 34,
+  "recipe": [
+   "computer",
+   "lithium_battery"
+  ],
+  "fact": "More computing power than the Apollo guidance computer."
+ },
+ {
+  "id": "robot",
+  "name": "Robot",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 62,
+  "recipe": [
+   "computer",
+   "electric_motor"
+  ],
+  "fact": "'Robot' comes from a Czech word for forced labor."
+ },
+ {
+  "id": "printer_3d",
+  "name": "3D Printer",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 34,
+  "recipe": [
+   "computer",
+   "polyethylene"
+  ],
+  "fact": "Can print rocket engine parts."
+ },
+ {
+  "id": "ai",
+  "name": "Artificial Intelligence",
+  "category": "inventions",
+  "subcategory": "modern",
+  "tier": 8,
+  "depth": 35,
+  "recipe": [
+   "internet",
+   "book"
+  ],
+  "fact": "Learned from humanity's written words."
+ },
+ {
+  "id": "quantum_computer",
+  "name": "Quantum Computer",
+  "category": "inventions",
+  "subcategory": "futuristic",
+  "tier": 9,
+  "depth": 57,
+  "recipe": [
+   "computer",
+   "superconductor"
+  ],
+  "fact": "Qubits are chilled near absolute zero."
+ }
+]

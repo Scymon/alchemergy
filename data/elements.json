@@ -1,0 +1,1789 @@
+[
+ {
+  "id": "photon",
+  "name": "Photon",
+  "category": "elements",
+  "subcategory": "particle",
+  "tier": 1,
+  "depth": 0,
+  "recipe": null,
+  "fact": "Light quanta; the energy currency of Alchemergy."
+ },
+ {
+  "id": "neutron",
+  "name": "Neutron",
+  "category": "elements",
+  "subcategory": "particle",
+  "tier": 1,
+  "depth": 0,
+  "recipe": null,
+  "fact": "Free neutrons decay in about 15 minutes."
+ },
+ {
+  "id": "hydrogen",
+  "name": "Hydrogen (H 1)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 0,
+  "recipe": null,
+  "fact": "Makes up about 74% of the normal matter in the universe.",
+  "symbol": "H",
+  "atomic_number": 1
+ },
+ {
+  "id": "helium",
+  "name": "Helium (He 2)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 1,
+  "recipe": [
+   "hydrogen",
+   "hydrogen"
+  ],
+  "fact": "Discovered in the Sun's spectrum before it was found on Earth.",
+  "symbol": "He",
+  "atomic_number": 2
+ },
+ {
+  "id": "lithium",
+  "name": "Lithium (Li 3)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 2,
+  "recipe": [
+   "helium",
+   "helium"
+  ],
+  "fact": "The lightest metal; it floats on water (and reacts with it).",
+  "symbol": "Li",
+  "atomic_number": 3
+ },
+ {
+  "id": "beryllium",
+  "name": "Beryllium (Be 4)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 3,
+  "recipe": [
+   "lithium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Be",
+  "atomic_number": 4
+ },
+ {
+  "id": "boron",
+  "name": "Boron (B 5)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 4,
+  "recipe": [
+   "beryllium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "B",
+  "atomic_number": 5
+ },
+ {
+  "id": "carbon",
+  "name": "Carbon (C 6)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 5,
+  "recipe": [
+   "boron",
+   "helium"
+  ],
+  "fact": "Forms more compounds than any other element: the backbone of life.",
+  "symbol": "C",
+  "atomic_number": 6
+ },
+ {
+  "id": "nitrogen",
+  "name": "Nitrogen (N 7)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 6,
+  "recipe": [
+   "carbon",
+   "helium"
+  ],
+  "fact": "About 78% of Earth's air is nitrogen.",
+  "symbol": "N",
+  "atomic_number": 7
+ },
+ {
+  "id": "oxygen",
+  "name": "Oxygen (O 8)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 7,
+  "recipe": [
+   "nitrogen",
+   "helium"
+  ],
+  "fact": "The third most abundant element in the universe.",
+  "symbol": "O",
+  "atomic_number": 8
+ },
+ {
+  "id": "fluorine",
+  "name": "Fluorine (F 9)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 8,
+  "recipe": [
+   "oxygen",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "F",
+  "atomic_number": 9
+ },
+ {
+  "id": "neon",
+  "name": "Neon (Ne 10)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 1,
+  "depth": 9,
+  "recipe": [
+   "fluorine",
+   "helium"
+  ],
+  "fact": "Glows red-orange in a discharge tube: the original neon sign.",
+  "symbol": "Ne",
+  "atomic_number": 10
+ },
+ {
+  "id": "sodium",
+  "name": "Sodium (Na 11)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 10,
+  "recipe": [
+   "neon",
+   "helium"
+  ],
+  "fact": "Soft enough to cut with a butter knife.",
+  "symbol": "Na",
+  "atomic_number": 11
+ },
+ {
+  "id": "magnesium",
+  "name": "Magnesium (Mg 12)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 11,
+  "recipe": [
+   "sodium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Mg",
+  "atomic_number": 12
+ },
+ {
+  "id": "aluminium",
+  "name": "Aluminium (Al 13)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 12,
+  "recipe": [
+   "magnesium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Al",
+  "atomic_number": 13
+ },
+ {
+  "id": "silicon",
+  "name": "Silicon (Si 14)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 13,
+  "recipe": [
+   "aluminium",
+   "helium"
+  ],
+  "fact": "The second most abundant element in Earth's crust.",
+  "symbol": "Si",
+  "atomic_number": 14
+ },
+ {
+  "id": "phosphorus",
+  "name": "Phosphorus (P 15)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 14,
+  "recipe": [
+   "silicon",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "P",
+  "atomic_number": 15
+ },
+ {
+  "id": "sulfur",
+  "name": "Sulfur (S 16)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 15,
+  "recipe": [
+   "phosphorus",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "S",
+  "atomic_number": 16
+ },
+ {
+  "id": "chlorine",
+  "name": "Chlorine (Cl 17)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 16,
+  "recipe": [
+   "sulfur",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Cl",
+  "atomic_number": 17
+ },
+ {
+  "id": "argon",
+  "name": "Argon (Ar 18)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 17,
+  "recipe": [
+   "chlorine",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Ar",
+  "atomic_number": 18
+ },
+ {
+  "id": "potassium",
+  "name": "Potassium (K 19)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 18,
+  "recipe": [
+   "argon",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "K",
+  "atomic_number": 19
+ },
+ {
+  "id": "calcium",
+  "name": "Calcium (Ca 20)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 19,
+  "recipe": [
+   "potassium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Ca",
+  "atomic_number": 20
+ },
+ {
+  "id": "scandium",
+  "name": "Scandium (Sc 21)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 20,
+  "recipe": [
+   "calcium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Sc",
+  "atomic_number": 21
+ },
+ {
+  "id": "titanium",
+  "name": "Titanium (Ti 22)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 21,
+  "recipe": [
+   "scandium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Ti",
+  "atomic_number": 22
+ },
+ {
+  "id": "vanadium",
+  "name": "Vanadium (V 23)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 22,
+  "recipe": [
+   "titanium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "V",
+  "atomic_number": 23
+ },
+ {
+  "id": "chromium",
+  "name": "Chromium (Cr 24)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 23,
+  "recipe": [
+   "vanadium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Cr",
+  "atomic_number": 24
+ },
+ {
+  "id": "manganese",
+  "name": "Manganese (Mn 25)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 24,
+  "recipe": [
+   "chromium",
+   "helium"
+  ],
+  "fact": "Forged by nuclear fusion inside stars.",
+  "symbol": "Mn",
+  "atomic_number": 25
+ },
+ {
+  "id": "iron",
+  "name": "Iron (Fe 26)",
+  "category": "elements",
+  "subcategory": "fusion",
+  "tier": 2,
+  "depth": 25,
+  "recipe": [
+   "manganese",
+   "helium"
+  ],
+  "fact": "Fusion stops at iron: making heavier nuclei costs a star energy.",
+  "symbol": "Fe",
+  "atomic_number": 26
+ },
+ {
+  "id": "cobalt",
+  "name": "Cobalt (Co 27)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 26,
+  "recipe": [
+   "iron",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Co",
+  "atomic_number": 27
+ },
+ {
+  "id": "nickel",
+  "name": "Nickel (Ni 28)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 27,
+  "recipe": [
+   "cobalt",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ni",
+  "atomic_number": 28
+ },
+ {
+  "id": "copper",
+  "name": "Copper (Cu 29)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 28,
+  "recipe": [
+   "nickel",
+   "neutron"
+  ],
+  "fact": "One of the first metals humans worked, over 10,000 years ago.",
+  "symbol": "Cu",
+  "atomic_number": 29
+ },
+ {
+  "id": "zinc",
+  "name": "Zinc (Zn 30)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 29,
+  "recipe": [
+   "copper",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Zn",
+  "atomic_number": 30
+ },
+ {
+  "id": "gallium",
+  "name": "Gallium (Ga 31)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 30,
+  "recipe": [
+   "zinc",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ga",
+  "atomic_number": 31
+ },
+ {
+  "id": "germanium",
+  "name": "Germanium (Ge 32)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 31,
+  "recipe": [
+   "gallium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ge",
+  "atomic_number": 32
+ },
+ {
+  "id": "arsenic",
+  "name": "Arsenic (As 33)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 32,
+  "recipe": [
+   "germanium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "As",
+  "atomic_number": 33
+ },
+ {
+  "id": "selenium",
+  "name": "Selenium (Se 34)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 33,
+  "recipe": [
+   "arsenic",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Se",
+  "atomic_number": 34
+ },
+ {
+  "id": "bromine",
+  "name": "Bromine (Br 35)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 34,
+  "recipe": [
+   "selenium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Br",
+  "atomic_number": 35
+ },
+ {
+  "id": "krypton",
+  "name": "Krypton (Kr 36)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 35,
+  "recipe": [
+   "bromine",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Kr",
+  "atomic_number": 36
+ },
+ {
+  "id": "rubidium",
+  "name": "Rubidium (Rb 37)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 36,
+  "recipe": [
+   "krypton",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Rb",
+  "atomic_number": 37
+ },
+ {
+  "id": "strontium",
+  "name": "Strontium (Sr 38)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 37,
+  "recipe": [
+   "rubidium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Sr",
+  "atomic_number": 38
+ },
+ {
+  "id": "yttrium",
+  "name": "Yttrium (Y 39)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 38,
+  "recipe": [
+   "strontium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Y",
+  "atomic_number": 39
+ },
+ {
+  "id": "zirconium",
+  "name": "Zirconium (Zr 40)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 39,
+  "recipe": [
+   "yttrium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Zr",
+  "atomic_number": 40
+ },
+ {
+  "id": "niobium",
+  "name": "Niobium (Nb 41)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 40,
+  "recipe": [
+   "zirconium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Nb",
+  "atomic_number": 41
+ },
+ {
+  "id": "molybdenum",
+  "name": "Molybdenum (Mo 42)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 41,
+  "recipe": [
+   "niobium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Mo",
+  "atomic_number": 42
+ },
+ {
+  "id": "technetium",
+  "name": "Technetium (Tc 43)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 42,
+  "recipe": [
+   "molybdenum",
+   "neutron"
+  ],
+  "fact": "The lightest element with no stable isotopes; first made artificially in 1937.",
+  "symbol": "Tc",
+  "atomic_number": 43
+ },
+ {
+  "id": "ruthenium",
+  "name": "Ruthenium (Ru 44)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 43,
+  "recipe": [
+   "technetium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ru",
+  "atomic_number": 44
+ },
+ {
+  "id": "rhodium",
+  "name": "Rhodium (Rh 45)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 44,
+  "recipe": [
+   "ruthenium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Rh",
+  "atomic_number": 45
+ },
+ {
+  "id": "palladium",
+  "name": "Palladium (Pd 46)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 45,
+  "recipe": [
+   "rhodium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Pd",
+  "atomic_number": 46
+ },
+ {
+  "id": "silver",
+  "name": "Silver (Ag 47)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 46,
+  "recipe": [
+   "palladium",
+   "neutron"
+  ],
+  "fact": "The best electrical conductor of all metals.",
+  "symbol": "Ag",
+  "atomic_number": 47
+ },
+ {
+  "id": "cadmium",
+  "name": "Cadmium (Cd 48)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 47,
+  "recipe": [
+   "silver",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Cd",
+  "atomic_number": 48
+ },
+ {
+  "id": "indium",
+  "name": "Indium (In 49)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 48,
+  "recipe": [
+   "cadmium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "In",
+  "atomic_number": 49
+ },
+ {
+  "id": "tin",
+  "name": "Tin (Sn 50)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 49,
+  "recipe": [
+   "indium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Sn",
+  "atomic_number": 50
+ },
+ {
+  "id": "antimony",
+  "name": "Antimony (Sb 51)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 50,
+  "recipe": [
+   "tin",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Sb",
+  "atomic_number": 51
+ },
+ {
+  "id": "tellurium",
+  "name": "Tellurium (Te 52)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 51,
+  "recipe": [
+   "antimony",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Te",
+  "atomic_number": 52
+ },
+ {
+  "id": "iodine",
+  "name": "Iodine (I 53)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 52,
+  "recipe": [
+   "tellurium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "I",
+  "atomic_number": 53
+ },
+ {
+  "id": "xenon",
+  "name": "Xenon (Xe 54)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 53,
+  "recipe": [
+   "iodine",
+   "neutron"
+  ],
+  "fact": "Used to power ion engines on spacecraft like Dawn.",
+  "symbol": "Xe",
+  "atomic_number": 54
+ },
+ {
+  "id": "caesium",
+  "name": "Caesium (Cs 55)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 54,
+  "recipe": [
+   "xenon",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Cs",
+  "atomic_number": 55
+ },
+ {
+  "id": "barium",
+  "name": "Barium (Ba 56)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 55,
+  "recipe": [
+   "caesium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ba",
+  "atomic_number": 56
+ },
+ {
+  "id": "lanthanum",
+  "name": "Lanthanum (La 57)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 56,
+  "recipe": [
+   "barium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "La",
+  "atomic_number": 57
+ },
+ {
+  "id": "cerium",
+  "name": "Cerium (Ce 58)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 57,
+  "recipe": [
+   "lanthanum",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ce",
+  "atomic_number": 58
+ },
+ {
+  "id": "praseodymium",
+  "name": "Praseodymium (Pr 59)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 58,
+  "recipe": [
+   "cerium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Pr",
+  "atomic_number": 59
+ },
+ {
+  "id": "neodymium",
+  "name": "Neodymium (Nd 60)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 59,
+  "recipe": [
+   "praseodymium",
+   "neutron"
+  ],
+  "fact": "Neodymium magnets are the strongest permanent magnets made.",
+  "symbol": "Nd",
+  "atomic_number": 60
+ },
+ {
+  "id": "promethium",
+  "name": "Promethium (Pm 61)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 60,
+  "recipe": [
+   "neodymium",
+   "neutron"
+  ],
+  "fact": "Essentially absent from Earth's crust; all of it is radioactive.",
+  "symbol": "Pm",
+  "atomic_number": 61
+ },
+ {
+  "id": "samarium",
+  "name": "Samarium (Sm 62)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 61,
+  "recipe": [
+   "promethium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Sm",
+  "atomic_number": 62
+ },
+ {
+  "id": "europium",
+  "name": "Europium (Eu 63)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 62,
+  "recipe": [
+   "samarium",
+   "supernova"
+  ],
+  "fact": "Glows red in euro banknotes under UV light, a real anti-forgery feature.",
+  "symbol": "Eu",
+  "atomic_number": 63
+ },
+ {
+  "id": "gadolinium",
+  "name": "Gadolinium (Gd 64)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 63,
+  "recipe": [
+   "europium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Gd",
+  "atomic_number": 64
+ },
+ {
+  "id": "terbium",
+  "name": "Terbium (Tb 65)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 64,
+  "recipe": [
+   "gadolinium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Tb",
+  "atomic_number": 65
+ },
+ {
+  "id": "dysprosium",
+  "name": "Dysprosium (Dy 66)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 65,
+  "recipe": [
+   "terbium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Dy",
+  "atomic_number": 66
+ },
+ {
+  "id": "holmium",
+  "name": "Holmium (Ho 67)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 66,
+  "recipe": [
+   "dysprosium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ho",
+  "atomic_number": 67
+ },
+ {
+  "id": "erbium",
+  "name": "Erbium (Er 68)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 67,
+  "recipe": [
+   "holmium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Er",
+  "atomic_number": 68
+ },
+ {
+  "id": "thulium",
+  "name": "Thulium (Tm 69)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 68,
+  "recipe": [
+   "erbium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Tm",
+  "atomic_number": 69
+ },
+ {
+  "id": "ytterbium",
+  "name": "Ytterbium (Yb 70)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 69,
+  "recipe": [
+   "thulium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Yb",
+  "atomic_number": 70
+ },
+ {
+  "id": "lutetium",
+  "name": "Lutetium (Lu 71)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 70,
+  "recipe": [
+   "ytterbium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Lu",
+  "atomic_number": 71
+ },
+ {
+  "id": "hafnium",
+  "name": "Hafnium (Hf 72)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 71,
+  "recipe": [
+   "lutetium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Hf",
+  "atomic_number": 72
+ },
+ {
+  "id": "tantalum",
+  "name": "Tantalum (Ta 73)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 72,
+  "recipe": [
+   "hafnium",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Ta",
+  "atomic_number": 73
+ },
+ {
+  "id": "tungsten",
+  "name": "Tungsten (W 74)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 73,
+  "recipe": [
+   "tantalum",
+   "neutron"
+  ],
+  "fact": "Highest melting point of any metal: 3,422 °C.",
+  "symbol": "W",
+  "atomic_number": 74
+ },
+ {
+  "id": "rhenium",
+  "name": "Rhenium (Re 75)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 74,
+  "recipe": [
+   "tungsten",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Re",
+  "atomic_number": 75
+ },
+ {
+  "id": "osmium",
+  "name": "Osmium (Os 76)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 75,
+  "recipe": [
+   "rhenium",
+   "supernova"
+  ],
+  "fact": "The densest naturally occurring element.",
+  "symbol": "Os",
+  "atomic_number": 76
+ },
+ {
+  "id": "iridium",
+  "name": "Iridium (Ir 77)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 76,
+  "recipe": [
+   "osmium",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Ir",
+  "atomic_number": 77
+ },
+ {
+  "id": "platinum",
+  "name": "Platinum (Pt 78)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 77,
+  "recipe": [
+   "iridium",
+   "supernova"
+  ],
+  "fact": "So unreactive it was used for the international kilogram standard alloy.",
+  "symbol": "Pt",
+  "atomic_number": 78
+ },
+ {
+  "id": "gold",
+  "name": "Gold (Au 79)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 78,
+  "recipe": [
+   "platinum",
+   "supernova"
+  ],
+  "fact": "Much of Earth's gold was forged in neutron-star collisions.",
+  "symbol": "Au",
+  "atomic_number": 79
+ },
+ {
+  "id": "mercury",
+  "name": "Mercury (Hg 80)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 79,
+  "recipe": [
+   "gold",
+   "neutron"
+  ],
+  "fact": "The only metal that is liquid at room temperature.",
+  "symbol": "Hg",
+  "atomic_number": 80
+ },
+ {
+  "id": "thallium",
+  "name": "Thallium (Tl 81)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 80,
+  "recipe": [
+   "mercury",
+   "neutron"
+  ],
+  "fact": "Built by slow neutron capture in aging giant stars.",
+  "symbol": "Tl",
+  "atomic_number": 81
+ },
+ {
+  "id": "lead",
+  "name": "Lead (Pb 82)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 81,
+  "recipe": [
+   "thallium",
+   "neutron"
+  ],
+  "fact": "Romans used it for water pipes; 'plumbing' comes from 'plumbum'.",
+  "symbol": "Pb",
+  "atomic_number": 82
+ },
+ {
+  "id": "bismuth",
+  "name": "Bismuth (Bi 83)",
+  "category": "elements",
+  "subcategory": "neutron capture",
+  "tier": 4,
+  "depth": 82,
+  "recipe": [
+   "lead",
+   "neutron"
+  ],
+  "fact": "Technically radioactive, with a half-life a billion times the universe's age.",
+  "symbol": "Bi",
+  "atomic_number": 83
+ },
+ {
+  "id": "polonium",
+  "name": "Polonium (Po 84)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 83,
+  "recipe": [
+   "bismuth",
+   "supernova"
+  ],
+  "fact": "Discovered by Marie and Pierre Curie, named after Poland.",
+  "symbol": "Po",
+  "atomic_number": 84
+ },
+ {
+  "id": "astatine",
+  "name": "Astatine (At 85)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 84,
+  "recipe": [
+   "polonium",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "At",
+  "atomic_number": 85
+ },
+ {
+  "id": "radon",
+  "name": "Radon (Rn 86)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 85,
+  "recipe": [
+   "astatine",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Rn",
+  "atomic_number": 86
+ },
+ {
+  "id": "francium",
+  "name": "Francium (Fr 87)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 86,
+  "recipe": [
+   "radon",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Fr",
+  "atomic_number": 87
+ },
+ {
+  "id": "radium",
+  "name": "Radium (Ra 88)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 87,
+  "recipe": [
+   "francium",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Ra",
+  "atomic_number": 88
+ },
+ {
+  "id": "actinium",
+  "name": "Actinium (Ac 89)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 88,
+  "recipe": [
+   "radium",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Ac",
+  "atomic_number": 89
+ },
+ {
+  "id": "thorium",
+  "name": "Thorium (Th 90)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 89,
+  "recipe": [
+   "actinium",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Th",
+  "atomic_number": 90
+ },
+ {
+  "id": "protactinium",
+  "name": "Protactinium (Pa 91)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 90,
+  "recipe": [
+   "thorium",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Pa",
+  "atomic_number": 91
+ },
+ {
+  "id": "uranium",
+  "name": "Uranium (U 92)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 91,
+  "recipe": [
+   "protactinium",
+   "supernova"
+  ],
+  "fact": "The heaviest element found in significant amounts in nature.",
+  "symbol": "U",
+  "atomic_number": 92
+ },
+ {
+  "id": "neptunium",
+  "name": "Neptunium (Np 93)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 92,
+  "recipe": [
+   "uranium",
+   "supernova"
+  ],
+  "fact": "Forged in supernovae and neutron-star mergers (r-process).",
+  "symbol": "Np",
+  "atomic_number": 93
+ },
+ {
+  "id": "plutonium",
+  "name": "Plutonium (Pu 94)",
+  "category": "elements",
+  "subcategory": "supernova",
+  "tier": 6,
+  "depth": 93,
+  "recipe": [
+   "neptunium",
+   "supernova"
+  ],
+  "fact": "Powers RTGs on deep-space probes like Voyager and Curiosity.",
+  "symbol": "Pu",
+  "atomic_number": 94
+ },
+ {
+  "id": "americium",
+  "name": "Americium (Am 95)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 94,
+  "recipe": [
+   "plutonium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Am",
+  "atomic_number": 95
+ },
+ {
+  "id": "curium",
+  "name": "Curium (Cm 96)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 95,
+  "recipe": [
+   "americium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Cm",
+  "atomic_number": 96
+ },
+ {
+  "id": "berkelium",
+  "name": "Berkelium (Bk 97)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 96,
+  "recipe": [
+   "curium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Bk",
+  "atomic_number": 97
+ },
+ {
+  "id": "californium",
+  "name": "Californium (Cf 98)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 97,
+  "recipe": [
+   "berkelium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Cf",
+  "atomic_number": 98
+ },
+ {
+  "id": "einsteinium",
+  "name": "Einsteinium (Es 99)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 98,
+  "recipe": [
+   "californium",
+   "particle_accelerator"
+  ],
+  "fact": "First found in the debris of the first hydrogen bomb test.",
+  "symbol": "Es",
+  "atomic_number": 99
+ },
+ {
+  "id": "fermium",
+  "name": "Fermium (Fm 100)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 99,
+  "recipe": [
+   "einsteinium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Fm",
+  "atomic_number": 100
+ },
+ {
+  "id": "mendelevium",
+  "name": "Mendelevium (Md 101)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 100,
+  "recipe": [
+   "fermium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Md",
+  "atomic_number": 101
+ },
+ {
+  "id": "nobelium",
+  "name": "Nobelium (No 102)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 101,
+  "recipe": [
+   "mendelevium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "No",
+  "atomic_number": 102
+ },
+ {
+  "id": "lawrencium",
+  "name": "Lawrencium (Lr 103)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 102,
+  "recipe": [
+   "nobelium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Lr",
+  "atomic_number": 103
+ },
+ {
+  "id": "rutherfordium",
+  "name": "Rutherfordium (Rf 104)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 103,
+  "recipe": [
+   "lawrencium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Rf",
+  "atomic_number": 104
+ },
+ {
+  "id": "dubnium",
+  "name": "Dubnium (Db 105)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 104,
+  "recipe": [
+   "rutherfordium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Db",
+  "atomic_number": 105
+ },
+ {
+  "id": "seaborgium",
+  "name": "Seaborgium (Sg 106)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 105,
+  "recipe": [
+   "dubnium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Sg",
+  "atomic_number": 106
+ },
+ {
+  "id": "bohrium",
+  "name": "Bohrium (Bh 107)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 106,
+  "recipe": [
+   "seaborgium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Bh",
+  "atomic_number": 107
+ },
+ {
+  "id": "hassium",
+  "name": "Hassium (Hs 108)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 107,
+  "recipe": [
+   "bohrium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Hs",
+  "atomic_number": 108
+ },
+ {
+  "id": "meitnerium",
+  "name": "Meitnerium (Mt 109)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 108,
+  "recipe": [
+   "hassium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Mt",
+  "atomic_number": 109
+ },
+ {
+  "id": "darmstadtium",
+  "name": "Darmstadtium (Ds 110)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 109,
+  "recipe": [
+   "meitnerium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Ds",
+  "atomic_number": 110
+ },
+ {
+  "id": "roentgenium",
+  "name": "Roentgenium (Rg 111)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 110,
+  "recipe": [
+   "darmstadtium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Rg",
+  "atomic_number": 111
+ },
+ {
+  "id": "copernicium",
+  "name": "Copernicium (Cn 112)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 111,
+  "recipe": [
+   "roentgenium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Cn",
+  "atomic_number": 112
+ },
+ {
+  "id": "nihonium",
+  "name": "Nihonium (Nh 113)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 112,
+  "recipe": [
+   "copernicium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Nh",
+  "atomic_number": 113
+ },
+ {
+  "id": "flerovium",
+  "name": "Flerovium (Fl 114)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 113,
+  "recipe": [
+   "nihonium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Fl",
+  "atomic_number": 114
+ },
+ {
+  "id": "moscovium",
+  "name": "Moscovium (Mc 115)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 114,
+  "recipe": [
+   "flerovium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Mc",
+  "atomic_number": 115
+ },
+ {
+  "id": "livermorium",
+  "name": "Livermorium (Lv 116)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 115,
+  "recipe": [
+   "moscovium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Lv",
+  "atomic_number": 116
+ },
+ {
+  "id": "tennessine",
+  "name": "Tennessine (Ts 117)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 116,
+  "recipe": [
+   "livermorium",
+   "particle_accelerator"
+  ],
+  "fact": "Only made artificially in reactors or particle accelerators.",
+  "symbol": "Ts",
+  "atomic_number": 117
+ },
+ {
+  "id": "oganesson",
+  "name": "Oganesson (Og 118)",
+  "category": "elements",
+  "subcategory": "lab synthesis",
+  "tier": 9,
+  "depth": 117,
+  "recipe": [
+   "tennessine",
+   "particle_accelerator"
+  ],
+  "fact": "The heaviest element known; only a handful of atoms ever made.",
+  "symbol": "Og",
+  "atomic_number": 118
+ }
+]

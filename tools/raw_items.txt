@@ -1,0 +1,244 @@
+[materials]
+water|Water|compound|2|hydrogen+oxygen|Expands about 9% when it freezes.
+salt|Salt|mineral|2|sodium+chlorine|Two dangerous elements, one tasty crystal.
+carbon_dioxide|Carbon Dioxide|compound|2|carbon+oxygen|Plants breathe it in to build sugar.
+methane|Methane|compound|2|carbon+hydrogen|Main ingredient of natural gas; also found on Titan.
+ammonia|Ammonia|compound|2|nitrogen+water|The Haber process to make it feeds half of humanity.
+ozone|Ozone|compound|2|oxygen+oxygen|A thin layer of it shields Earth from UV.
+hydrogen_peroxide|Hydrogen Peroxide|compound|2|water+oxygen|Used as rocket propellant in the 1940s.
+silica|Silica|mineral|2|silicon+oxygen|The most common mineral family in Earth's crust.
+quartz|Quartz|mineral|2|silica+silica|Quartz crystals keep time in most watches.
+sand|Sand|mineral|2|quartz+water|Desert sand is too round for good concrete.
+clay|Clay|mineral|2|sand+water|Humans fired clay figurines 26,000 years ago.
+feldspar|Feldspar|mineral|2|silica+aluminium|About half of Earth's crust is feldspar.
+mica|Mica|mineral|2|silica+potassium|Splits into sheets thin enough to see through.
+granite|Granite|mineral|2|quartz+feldspar|Continents are largely built on granite.
+corundum|Corundum|mineral|2|aluminium+oxygen|Second only to diamond in hardness among natural minerals.
+ruby|Ruby|mineral|2|corundum+chromium|The first laser, in 1960, used a ruby crystal.
+sapphire|Sapphire|mineral|2|corundum+titanium|Sapphire comes in every color except red.
+emerald|Emerald|mineral|2|beryllium+silica|Its green comes from traces of chromium.
+graphite|Graphite|mineral|2|carbon+carbon|Pencil 'lead' is actually graphite.
+diamond|Diamond|mineral|2|graphite+graphite|Forms 150 km deep under enormous pressure.
+graphene|Graphene|material|7|graphite+electricity|One atom thick and about 200x stronger than steel.
+iron_oxide|Rust (Iron Oxide)|compound|2|iron+oxygen|Makes Mars red.
+magnetite|Magnetite|mineral|2|iron_oxide+iron|Natural lodestones are magnetized magnetite.
+limestone|Limestone|mineral|2|calcium+carbon_dioxide|Often made of ancient seashells.
+lime|Quicklime|compound|5|limestone+fire|Gets hot enough to boil water when wetted.
+cement|Cement|material|5|lime+clay|Roman concrete still stands after 2,000 years.
+concrete|Concrete|material|5|cement+sand|The most used material on Earth after water.
+glass|Glass|material|5|sand+fire|Natural glass forms when lightning strikes sand.
+steel|Steel|alloy|3|iron+carbon|Just ~1% carbon makes iron far stronger.
+stainless_steel|Stainless Steel|alloy|3|steel+chromium|Chromium forms a self-healing oxide skin.
+bronze|Bronze|alloy|4|copper+tin|Gave its name to an entire age.
+brass|Brass|alloy|4|copper+zinc|Used for doorknobs partly because it kills microbes.
+pewter|Pewter|alloy|4|tin+lead|Modern pewter is lead-free.
+solder|Solder|alloy|4|tin+silver|Holds every circuit board together.
+electrum|Electrum|alloy|6|gold+silver|The first coins, from Lydia, were electrum.
+titanium_alloy|Titanium Alloy|alloy|3|titanium+aluminium|Jet engines and rockets rely on it.
+neodymium_magnet|Neodymium Magnet|alloy|4|iron+neodymium|Can lift over 1,000 times its own weight.
+superconductor|YBCO Superconductor|material|4|yttrium+barium|Carries current with zero resistance when cold.
+sulfuric_acid|Sulfuric Acid|compound|2|sulfur+water|The most produced industrial chemical.
+nitric_acid|Nitric Acid|compound|2|ammonia+oxygen|Key to fertilizers and explosives.
+hydrochloric_acid|Hydrochloric Acid|compound|2|chlorine+hydrogen|Your stomach makes it.
+saltpeter|Saltpeter|compound|2|potassium+nitric_acid|Once scraped from cave walls for gunpowder.
+charcoal|Charcoal|material|5|wood+fire|Nearly pure carbon.
+gunpowder|Gunpowder|material|5|saltpeter+charcoal|Invented by Chinese alchemists seeking immortality.
+sugar|Sugar|compound|2|carbon+water|Glucose is the fuel of nearly all cells.
+ethylene|Ethylene|compound|2|methane+methane|Plants use it as a ripening hormone.
+benzene|Benzene|compound|2|ethylene+methane|Kekulé said he dreamed of its ring shape.
+polyethylene|Polyethylene|polymer|4|ethylene+ethylene|The world's most common plastic.
+nylon|Nylon|polymer|4|ammonia+ethylene|First sold as toothbrush bristles in 1938.
+kevlar|Kevlar|polymer|4|nylon+benzene|Five times stronger than steel by weight.
+silicone|Silicone|polymer|4|silicon+methane|Stays flexible from -50 to 200 °C.
+latex|Latex|polymer|5|rubber_tree+rubber_tree|Milky sap that drips from rubber trees.
+rubber|Vulcanized Rubber|polymer|5|latex+sulfur|Goodyear discovered vulcanization by accident.
+paper|Paper|material|5|wood+water|Invented in China around 100 CE.
+crude_oil|Crude Oil|compound|5|plankton+sand|Mostly ancient marine plankton, not dinosaurs.
+petrol|Petrol|compound|5|crude_oil+fire|Refined by heating and distilling crude oil.
+doped_silicon|Doped Silicon|material|3|silicon+phosphorus|A few impurity atoms per million transform silicon.
+enriched_uranium|Enriched Uranium|material|8|uranium+centrifuge|Reactor fuel is only ~4% U-235.
+optical_fiber|Optical Fiber|material|8|glass+laser|Carries most of the internet as light.
+carbon_nanotube|Carbon Nanotube|material|7|graphene+graphene|Rolled graphene: the dream cable for a space elevator.
+[bestiary]
+amino_acid|Amino Acid|organic molecule|3|ammonia+methane|Found in meteorites and made in the Miller-Urey experiment.
+nucleotide|Nucleotide|organic molecule|3|phosphorus+sugar|The letters of the genetic code.
+lipid|Lipid|organic molecule|3|methane+water|Self-assembles into bubbles: the first cell walls.
+protein|Protein|organic molecule|3|amino_acid+amino_acid|Your body has tens of thousands of kinds.
+rna|RNA|organic molecule|3|nucleotide+nucleotide|Can store information and catalyze reactions.
+dna|DNA|organic molecule|3|rna+protein|About 2 meters of it in every human cell.
+primordial_soup|Primordial Soup|organic molecule|3|amino_acid+water|Darwin imagined life starting in a 'warm little pond'.
+protocell|Protocell|cell|4|lipid+rna|A membrane bubble holding self-copying molecules.
+bacterium|Bacterium|microbe|4|protocell+dna|You carry about as many bacterial cells as human cells.
+archaea|Archaea|microbe|4|bacterium+methane|Some thrive in boiling acid springs.
+cyanobacteria|Cyanobacteria|microbe|4|bacterium+photon|Filled Earth's air with oxygen.
+eukaryote|Eukaryote|cell|4|bacterium+archaea|Born when one microbe engulfed another.
+algae|Algae|plant|5|eukaryote+photon|Produce about half of Earth's oxygen.
+plankton|Plankton|microbe|5|algae+water|Name means 'drifter' in Greek.
+fungus|Fungus|microbe|4|eukaryote+sugar|Closer relatives of animals than of plants.
+lichen|Lichen|microbe|5|fungus+algae|A partnership that can survive in space.
+moss|Moss|plant|5|algae+clay|Among the first plants on land.
+soil|Soil|plant|5|sand+fungus|A handful holds more microbes than people on Earth.
+fern|Fern|plant|5|moss+water|Ferns predate dinosaurs.
+tree|Tree|plant|5|fern+soil|There are about 3 trillion trees on Earth.
+wood|Wood|plant|5|tree+tree|Made largely of cellulose and lignin.
+rubber_tree|Rubber Tree|plant|5|tree+water|Native to the Amazon basin.
+grass|Grass|plant|5|moss+soil|Grasses evolved alongside dinosaurs.
+flower|Flower|plant|5|fern+sugar|Flowers appeared about 130 million years ago.
+fruit|Fruit|plant|5|flower+water|Evolved to get animals to spread seeds.
+wheat|Wheat|plant|5|grass+photon|Domesticated about 10,000 years ago.
+sponge|Sponge|animal|6|eukaryote+silica|Possibly the oldest animal lineage.
+jellyfish|Jellyfish|animal|6|plankton+protein|One species is biologically immortal.
+worm|Worm|animal|6|eukaryote+soil|Darwin wrote a whole book on earthworms.
+fish|Fish|animal|6|worm+water|More species than all other vertebrates combined.
+shark|Shark|animal|6|fish+fish|Older than trees.
+insect|Insect|animal|6|worm+grass|About 10 quintillion alive at any time.
+bee|Bee|animal|6|insect+flower|Bees dance to share directions.
+butterfly|Butterfly|animal|6|insect+fruit|Tastes with its feet.
+spider|Spider|animal|6|insect+insect|Spider silk rivals steel in strength.
+frog|Frog|animal|6|fish+moss|Some frogs freeze solid and thaw in spring.
+lizard|Lizard|animal|6|frog+sand|Some lizards can run on water.
+dinosaur|Dinosaur|animal|6|lizard+lizard|Ruled the Earth for about 165 million years.
+bird|Bird|animal|6|dinosaur+insect|Birds are living dinosaurs.
+mammal|Early Mammal|animal|6|lizard+fruit|Early mammals were small and nocturnal.
+horse|Horse|animal|6|mammal+grass|Can sleep standing up.
+whale|Whale|animal|6|mammal+fish|Blue whales are the largest animals ever.
+wolf|Wolf|animal|6|mammal+mammal|Every dog descends from wolves.
+primate|Primate|animal|6|mammal+tree|Forward-facing eyes for judging jumps between branches.
+human|Human|animal|6|primate+fire|Cooking may have helped grow our big brains.
+slime|Alchemical Slime|mythic|7|protocell+mercury|The alchemists' prima materia, given life.
+homunculus|Homunculus|mythic|7|human+mercury|Paracelsus claimed a recipe for a tiny artificial man.
+golem|Golem|mythic|7|clay+human|A clay guardian from Jewish folklore.
+salamander|Fire Salamander|mythic|7|lizard+fire|Alchemists' elemental spirit of fire.
+phoenix|Phoenix|mythic|7|bird+fire|Reborn from its own ashes.
+dragon|Dragon|mythic|7|dinosaur+fire|Dinosaur fossils may have inspired dragon myths.
+unicorn|Unicorn|mythic|7|horse+diamond|Narwhal tusks were once sold as unicorn horns.
+hippogriff|Hippogriff|mythic|7|bird+horse|Half eagle, half horse.
+kraken|Kraken|mythic|7|jellyfish+whale|Possibly inspired by giant squid.
+philosophers_stone|Philosopher's Stone|mythic|7|gold+homunculus|The alchemists' ultimate goal: turning lead to gold.
+star_whale|Star Whale|mythic|7|whale+nebula|A leviathan that swims between stars.
+void_wyrm|Void Wyrm|mythic|7|dragon+black_hole|Devours light itself.
+[inventions]
+fire|Fire|primitive|5|wood+oxygen|Humans controlled fire at least 400,000 years ago.
+stone_tool|Stone Tool|primitive|5|granite+wood|Stone tools are over 3.3 million years old.
+spear|Spear|primitive|5|stone_tool+rope|One of the oldest hunting tools.
+rope|Rope|primitive|5|grass+grass|Neanderthals twisted fibers into cord.
+wheel|Wheel|ancient|5|wood+stone_tool|Used for pottery before carts.
+pottery|Pottery|ancient|5|clay+fire|Older than farming in East Asia.
+kiln|Kiln|ancient|5|pottery+fire|Reached temperatures that enabled metal smelting.
+farm|Agriculture|ancient|5|wheat+soil|Changed humans from foragers to farmers.
+bread|Bread|ancient|5|wheat+fire|Older than agriculture itself.
+boat|Boat|ancient|5|wood+rope|Humans reached Australia by boat 50,000+ years ago.
+writing|Writing|ancient|5|clay+stone_tool|Cuneiform began as tallies on clay.
+book|Book|medieval|6|paper+writing|The codex replaced scrolls in late antiquity.
+forge|Forge|ancient|5|kiln+charcoal|Blacksmiths shaped the Iron Age.
+bronze_sword|Bronze Sword|ancient|5|bronze+stone_tool|A Bronze Age high-tech weapon.
+iron_tools|Iron Tools|ancient|5|iron+forge|Iron was cheaper and more plentiful than bronze.
+compass|Compass|medieval|6|magnetite+wood|First used in China for divination.
+printing_press|Printing Press|medieval|6|paper+iron_tools|Gutenberg's press sped up the spread of knowledge.
+cannon|Cannon|medieval|6|gunpowder+bronze|Bronze cannon were common for centuries.
+lens|Lens|medieval|6|glass+glass|Eyeglasses appeared in Italy around 1290.
+telescope|Telescope|renaissance|6|lens+brass|Galileo saw Jupiter's moons in 1610.
+microscope|Microscope|renaissance|6|lens+bacterium|Van Leeuwenhoek first saw bacteria in 1676.
+gear|Gear|renaissance|6|brass+wheel|The Antikythera mechanism had dozens of gears.
+clock|Clock|renaissance|6|gear+gear|Marine clocks solved the longitude problem.
+steam_engine|Steam Engine|industrial|7|steel+water|Powered the Industrial Revolution.
+locomotive|Locomotive|industrial|7|steam_engine+wheel|Standardized time zones were invented for railways.
+factory|Factory|industrial|7|steam_engine+gear|Mass production reshaped society.
+electricity|Electricity|industrial|7|copper+magnetite|Faraday made the first generator in 1831.
+battery|Battery|industrial|7|electricity+sulfuric_acid|Volta stacked metal discs into the first battery.
+lithium_battery|Lithium Battery|modern|8|battery+lithium|Earned a 2019 Nobel Prize.
+electric_motor|Electric Motor|industrial|7|electricity+neodymium_magnet|About half of the world's electricity runs motors.
+light_bulb|Light Bulb|industrial|7|electricity+glass|Tungsten filaments glow at over 2,500 °C.
+telegraph|Telegraph|industrial|7|electricity+writing|The first transatlantic cable was laid in 1858.
+telephone|Telephone|industrial|7|telegraph+copper|Bell's first words: 'Come here, I want to see you.'
+radio|Radio|modern|8|telephone+quartz|Quartz crystals tune radio frequencies.
+vacuum_tube|Vacuum Tube|modern|8|light_bulb+radio|Early computers used thousands of them.
+television|Television|modern|8|radio+vacuum_tube|Moving pictures carried by radio waves.
+combustion_engine|Combustion Engine|industrial|7|steel+petrol|Burns fuel inside the cylinder.
+car|Car|modern|8|combustion_engine+wheel|Over a billion are on the road today.
+airplane|Airplane|modern|8|combustion_engine+bird|The Wright brothers flew 12 seconds in 1903.
+transistor|Transistor|modern|8|doped_silicon+electricity|The most manufactured device in history.
+integrated_circuit|Integrated Circuit|modern|8|transistor+transistor|Modern chips hold tens of billions of transistors.
+computer|Computer|modern|8|integrated_circuit+clock|Every chip runs to the beat of a clock.
+laser|Laser|modern|8|light_bulb+ruby|The first laser used a ruby crystal.
+solar_panel|Solar Panel|modern|8|doped_silicon+photon|Photons knock electrons free to make current.
+centrifuge|Centrifuge|modern|8|electric_motor+steel|Spins up to separate uranium isotopes.
+nuclear_reactor|Nuclear Reactor|modern|8|enriched_uranium+steel|A natural reactor ran in Gabon 2 billion years ago.
+particle_accelerator|Particle Accelerator|modern|8|superconductor+electricity|The LHC is 27 km around.
+fusion_reactor|Fusion Reactor|futuristic|9|nuclear_reactor+superconductor|Aims to bottle a star on Earth.
+internet|Internet|modern|8|computer+telephone|Began as ARPANET in 1969.
+smartphone|Smartphone|modern|8|computer+lithium_battery|More computing power than the Apollo guidance computer.
+robot|Robot|modern|8|computer+electric_motor|'Robot' comes from a Czech word for forced labor.
+printer_3d|3D Printer|modern|8|computer+polyethylene|Can print rocket engine parts.
+ai|Artificial Intelligence|modern|8|internet+book|Learned from humanity's written words.
+quantum_computer|Quantum Computer|futuristic|9|computer+superconductor|Qubits are chilled near absolute zero.
+[space]
+rocket_fuel|Rocket Fuel|propulsion|9|petrol+oxygen|Kerosene and liquid oxygen powered Saturn V's first stage.
+rocket|Rocket|launch|9|rocket_fuel+titanium_alloy|Must reach about 7.8 km/s to stay in orbit.
+satellite|Satellite|orbital|9|rocket+radio|Sputnik beeped from orbit in 1957.
+gps|GPS|orbital|9|satellite+clock|Must correct for relativity to stay accurate.
+space_telescope|Space Telescope|orbital|9|satellite+telescope|JWST sees galaxies from 13+ billion years ago.
+astronaut|Astronaut|crewed|9|human+rocket|Over 600 people have flown to space.
+moon_landing|Moon Landing|crewed|9|astronaut+moon|Apollo 11 landed in 1969.
+space_station|Space Station|crewed|9|satellite+astronaut|The ISS circles Earth every 90 minutes.
+rtg|Nuclear Battery (RTG)|propulsion|9|plutonium+battery|Has powered Voyager for nearly 50 years.
+space_probe|Space Probe|robotic|9|satellite+rtg|Voyager 1 is in interstellar space.
+mars_rover|Mars Rover|robotic|9|robot+mars|Curiosity has driven over 30 km on Mars.
+reusable_rocket|Reusable Rocket|launch|9|rocket+ai|Boosters now land themselves.
+ion_drive|Ion Drive|propulsion|9|xenon+electricity|Gentle thrust but extremely efficient.
+mars_colony|Mars Colony|crewed|9|space_station+mars|Mars has a day just 37 minutes longer than Earth's.
+space_elevator|Space Elevator|megastructure|10|carbon_nanotube+satellite|A cable to orbit would replace rockets.
+solar_sail|Solar Sail|propulsion|9|space_probe+laser|Sails on the pressure of light.
+fusion_drive|Fusion Drive|propulsion|9|fusion_reactor+rocket|Could reach the outer planets in weeks.
+starship|Starship|interstellar|10|fusion_drive+space_station|A city that can cross the void.
+generation_ship|Generation Ship|interstellar|10|starship+mars_colony|Crews born en route to the stars.
+dyson_swarm|Dyson Swarm|megastructure|10|solar_panel+star|Countless collectors orbiting a star.
+dyson_sphere|Dyson Sphere|megastructure|10|dyson_swarm+dyson_swarm|Captures nearly all of a star's energy.
+warp_drive|Warp Drive|interstellar|10|starship+exotic_matter|The Alcubierre metric bends space itself.
+matrioshka_brain|Matrioshka Brain|megastructure|10|dyson_sphere+ai|A star-powered computer of nested shells.
+galactic_empire|Galactic Civilization|megastructure|10|matrioshka_brain+galaxy|Kardashev Type III: harnessing a whole galaxy.
+[cosmic]
+gas_cloud|Gas Cloud|nebula|1|hydrogen+photon|Interstellar gas averages about one atom per cubic cm.
+nebula|Nebula|nebula|1|gas_cloud+gas_cloud|Stellar nurseries light-years across.
+cosmic_dust|Cosmic Dust|nebula|1|carbon+nebula|Tons of it fall on Earth every day.
+protostar|Protostar|star|2|nebula+hydrogen|A collapsing cloud heating toward ignition.
+star|Star|star|2|protostar+helium|The Sun fuses 600 million tons of hydrogen per second.
+brown_dwarf|Brown Dwarf|star|2|protostar+methane|Too small to fuse hydrogen: a failed star.
+red_dwarf|Red Dwarf|star|2|protostar+cosmic_dust|The most common stars; they live trillions of years.
+red_giant|Red Giant|star|2|star+carbon|The Sun will swell into one in about 5 billion years.
+white_dwarf|White Dwarf|stellar remnant|5|red_giant+oxygen|A teaspoon weighs about 5 tons.
+planetary_nebula|Planetary Nebula|nebula|2|red_giant+photon|Nothing to do with planets: a dying star's shell.
+blue_supergiant|Blue Supergiant|star|2|star+star|Burns out in only a few million years.
+supernova|Supernova|stellar remnant|5|blue_supergiant+iron|An iron core collapses in under a second.
+neutron_star|Neutron Star|stellar remnant|5|supernova+neutron|A city-sized ball denser than an atomic nucleus.
+pulsar|Pulsar|stellar remnant|5|neutron_star+photon|Some spin over 700 times a second.
+magnetar|Magnetar|stellar remnant|5|pulsar+neodymium_magnet|The strongest magnets in the universe.
+kilonova|Kilonova|stellar remnant|5|neutron_star+neutron_star|Neutron-star collisions forge gold and platinum.
+black_hole|Black Hole|black hole|6|neutron_star+blue_supergiant|Not even light escapes past its event horizon.
+planetesimal|Planetesimal|planet|3|cosmic_dust+cosmic_dust|Building blocks of planets.
+asteroid|Asteroid|planet|3|planetesimal+iron|Some are almost pure metal.
+comet|Comet|planet|3|planetesimal+water|A dirty snowball with a tail pointing away from the Sun.
+rocky_planet|Rocky Planet|planet|3|asteroid+asteroid|Built up by countless collisions.
+earth|Earth|planet|3|rocky_planet+water|The only known world with life (so far).
+mars|Mars|planet|3|rocky_planet+iron_oxide|Its red color is literally rust.
+moon|Moon|planet|3|rocky_planet+rocky_planet|Likely formed when a Mars-sized body hit Earth.
+gas_giant|Gas Giant|planet|3|rocky_planet+gas_cloud|Jupiter could hold over 1,300 Earths.
+ice_giant|Ice Giant|planet|3|gas_giant+ammonia|It may rain diamonds inside Neptune.
+ring_system|Ring System|planet|3|gas_giant+comet|Saturn's rings are mostly water ice.
+solar_system|Solar System|system|4|star+earth|Formed 4.6 billion years ago.
+star_cluster|Star Cluster|system|4|solar_system+solar_system|Globular clusters hold up to millions of stars.
+supermassive_black_hole|Supermassive Black Hole|black hole|6|black_hole+black_hole|Sagittarius A* weighs 4 million Suns.
+galaxy|Galaxy|galaxy|8|star_cluster+supermassive_black_hole|The Milky Way has 100-400 billion stars.
+quasar|Quasar|galaxy|8|supermassive_black_hole+gas_cloud|Can outshine its entire host galaxy.
+ultramassive_black_hole|Ultramassive Black Hole|black hole|8|supermassive_black_hole+quasar|Over 10 billion solar masses.
+galaxy_cluster|Galaxy Cluster|large-scale structure|9|galaxy+galaxy|The largest gravitationally bound objects.
+supercluster|Supercluster|large-scale structure|9|galaxy_cluster+galaxy_cluster|We live in the Laniakea Supercluster.
+cosmic_web|Cosmic Web|large-scale structure|9|supercluster+supercluster|Filaments of galaxies around vast voids.
+dark_matter|Dark Matter|exotic|10|galaxy+photon|About 5x more of it than normal matter.
+dark_energy|Dark Energy|exotic|10|cosmic_web+dark_matter|Is accelerating the expansion of the universe.
+exotic_matter|Exotic Matter|exotic|10|dark_energy+particle_accelerator|Hypothetical matter with negative energy density.
+wormhole|Wormhole|exotic|10|black_hole+exotic_matter|A shortcut through spacetime, if it exists.
+white_hole|White Hole|exotic|10|wormhole+photon|A black hole's time-reversed twin.
+universe|Universe|beyond|12|cosmic_web+dark_energy|About 93 billion light-years across (observable).
+big_bang|Big Bang|beyond|12|ultramassive_black_hole+white_hole|Everything began 13.8 billion years ago.
+multiverse|Multiverse|beyond|12|universe+universe|The final merge: infinite universes.

@@ -1,0 +1,782 @@
+[
+ {
+  "id": "water",
+  "name": "Water",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 8,
+  "recipe": [
+   "hydrogen",
+   "oxygen"
+  ],
+  "fact": "Expands about 9% when it freezes."
+ },
+ {
+  "id": "salt",
+  "name": "Salt",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 17,
+  "recipe": [
+   "sodium",
+   "chlorine"
+  ],
+  "fact": "Two dangerous elements, one tasty crystal."
+ },
+ {
+  "id": "carbon_dioxide",
+  "name": "Carbon Dioxide",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 8,
+  "recipe": [
+   "carbon",
+   "oxygen"
+  ],
+  "fact": "Plants breathe it in to build sugar."
+ },
+ {
+  "id": "methane",
+  "name": "Methane",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 6,
+  "recipe": [
+   "carbon",
+   "hydrogen"
+  ],
+  "fact": "Main ingredient of natural gas; also found on Titan."
+ },
+ {
+  "id": "ammonia",
+  "name": "Ammonia",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 9,
+  "recipe": [
+   "nitrogen",
+   "water"
+  ],
+  "fact": "The Haber process to make it feeds half of humanity."
+ },
+ {
+  "id": "ozone",
+  "name": "Ozone",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 8,
+  "recipe": [
+   "oxygen",
+   "oxygen"
+  ],
+  "fact": "A thin layer of it shields Earth from UV."
+ },
+ {
+  "id": "hydrogen_peroxide",
+  "name": "Hydrogen Peroxide",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 9,
+  "recipe": [
+   "water",
+   "oxygen"
+  ],
+  "fact": "Used as rocket propellant in the 1940s."
+ },
+ {
+  "id": "silica",
+  "name": "Silica",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 14,
+  "recipe": [
+   "silicon",
+   "oxygen"
+  ],
+  "fact": "The most common mineral family in Earth's crust."
+ },
+ {
+  "id": "quartz",
+  "name": "Quartz",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 15,
+  "recipe": [
+   "silica",
+   "silica"
+  ],
+  "fact": "Quartz crystals keep time in most watches."
+ },
+ {
+  "id": "sand",
+  "name": "Sand",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 16,
+  "recipe": [
+   "quartz",
+   "water"
+  ],
+  "fact": "Desert sand is too round for good concrete."
+ },
+ {
+  "id": "clay",
+  "name": "Clay",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 17,
+  "recipe": [
+   "sand",
+   "water"
+  ],
+  "fact": "Humans fired clay figurines 26,000 years ago."
+ },
+ {
+  "id": "feldspar",
+  "name": "Feldspar",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 15,
+  "recipe": [
+   "silica",
+   "aluminium"
+  ],
+  "fact": "About half of Earth's crust is feldspar."
+ },
+ {
+  "id": "mica",
+  "name": "Mica",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 19,
+  "recipe": [
+   "silica",
+   "potassium"
+  ],
+  "fact": "Splits into sheets thin enough to see through."
+ },
+ {
+  "id": "granite",
+  "name": "Granite",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 16,
+  "recipe": [
+   "quartz",
+   "feldspar"
+  ],
+  "fact": "Continents are largely built on granite."
+ },
+ {
+  "id": "corundum",
+  "name": "Corundum",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 13,
+  "recipe": [
+   "aluminium",
+   "oxygen"
+  ],
+  "fact": "Second only to diamond in hardness among natural minerals."
+ },
+ {
+  "id": "ruby",
+  "name": "Ruby",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 24,
+  "recipe": [
+   "corundum",
+   "chromium"
+  ],
+  "fact": "The first laser, in 1960, used a ruby crystal."
+ },
+ {
+  "id": "sapphire",
+  "name": "Sapphire",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 22,
+  "recipe": [
+   "corundum",
+   "titanium"
+  ],
+  "fact": "Sapphire comes in every color except red."
+ },
+ {
+  "id": "emerald",
+  "name": "Emerald",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 15,
+  "recipe": [
+   "beryllium",
+   "silica"
+  ],
+  "fact": "Its green comes from traces of chromium."
+ },
+ {
+  "id": "graphite",
+  "name": "Graphite",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 6,
+  "recipe": [
+   "carbon",
+   "carbon"
+  ],
+  "fact": "Pencil 'lead' is actually graphite."
+ },
+ {
+  "id": "diamond",
+  "name": "Diamond",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 7,
+  "recipe": [
+   "graphite",
+   "graphite"
+  ],
+  "fact": "Forms 150 km deep under enormous pressure."
+ },
+ {
+  "id": "graphene",
+  "name": "Graphene",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 7,
+  "depth": 30,
+  "recipe": [
+   "graphite",
+   "electricity"
+  ],
+  "fact": "One atom thick and about 200x stronger than steel."
+ },
+ {
+  "id": "iron_oxide",
+  "name": "Rust (Iron Oxide)",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 26,
+  "recipe": [
+   "iron",
+   "oxygen"
+  ],
+  "fact": "Makes Mars red."
+ },
+ {
+  "id": "magnetite",
+  "name": "Magnetite",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 27,
+  "recipe": [
+   "iron_oxide",
+   "iron"
+  ],
+  "fact": "Natural lodestones are magnetized magnetite."
+ },
+ {
+  "id": "limestone",
+  "name": "Limestone",
+  "category": "materials",
+  "subcategory": "mineral",
+  "tier": 2,
+  "depth": 20,
+  "recipe": [
+   "calcium",
+   "carbon_dioxide"
+  ],
+  "fact": "Often made of ancient seashells."
+ },
+ {
+  "id": "lime",
+  "name": "Quicklime",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "limestone",
+   "fire"
+  ],
+  "fact": "Gets hot enough to boil water when wetted."
+ },
+ {
+  "id": "cement",
+  "name": "Cement",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 5,
+  "depth": 28,
+  "recipe": [
+   "lime",
+   "clay"
+  ],
+  "fact": "Roman concrete still stands after 2,000 years."
+ },
+ {
+  "id": "concrete",
+  "name": "Concrete",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 5,
+  "depth": 29,
+  "recipe": [
+   "cement",
+   "sand"
+  ],
+  "fact": "The most used material on Earth after water."
+ },
+ {
+  "id": "glass",
+  "name": "Glass",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "sand",
+   "fire"
+  ],
+  "fact": "Natural glass forms when lightning strikes sand."
+ },
+ {
+  "id": "steel",
+  "name": "Steel",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 3,
+  "depth": 26,
+  "recipe": [
+   "iron",
+   "carbon"
+  ],
+  "fact": "Just ~1% carbon makes iron far stronger."
+ },
+ {
+  "id": "stainless_steel",
+  "name": "Stainless Steel",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 3,
+  "depth": 27,
+  "recipe": [
+   "steel",
+   "chromium"
+  ],
+  "fact": "Chromium forms a self-healing oxide skin."
+ },
+ {
+  "id": "bronze",
+  "name": "Bronze",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 4,
+  "depth": 50,
+  "recipe": [
+   "copper",
+   "tin"
+  ],
+  "fact": "Gave its name to an entire age."
+ },
+ {
+  "id": "brass",
+  "name": "Brass",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 4,
+  "depth": 30,
+  "recipe": [
+   "copper",
+   "zinc"
+  ],
+  "fact": "Used for doorknobs partly because it kills microbes."
+ },
+ {
+  "id": "pewter",
+  "name": "Pewter",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 4,
+  "depth": 82,
+  "recipe": [
+   "tin",
+   "lead"
+  ],
+  "fact": "Modern pewter is lead-free."
+ },
+ {
+  "id": "solder",
+  "name": "Solder",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 4,
+  "depth": 50,
+  "recipe": [
+   "tin",
+   "silver"
+  ],
+  "fact": "Holds every circuit board together."
+ },
+ {
+  "id": "electrum",
+  "name": "Electrum",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 6,
+  "depth": 79,
+  "recipe": [
+   "gold",
+   "silver"
+  ],
+  "fact": "The first coins, from Lydia, were electrum."
+ },
+ {
+  "id": "titanium_alloy",
+  "name": "Titanium Alloy",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 3,
+  "depth": 22,
+  "recipe": [
+   "titanium",
+   "aluminium"
+  ],
+  "fact": "Jet engines and rockets rely on it."
+ },
+ {
+  "id": "neodymium_magnet",
+  "name": "Neodymium Magnet",
+  "category": "materials",
+  "subcategory": "alloy",
+  "tier": 4,
+  "depth": 60,
+  "recipe": [
+   "iron",
+   "neodymium"
+  ],
+  "fact": "Can lift over 1,000 times its own weight."
+ },
+ {
+  "id": "superconductor",
+  "name": "YBCO Superconductor",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 4,
+  "depth": 56,
+  "recipe": [
+   "yttrium",
+   "barium"
+  ],
+  "fact": "Carries current with zero resistance when cold."
+ },
+ {
+  "id": "sulfuric_acid",
+  "name": "Sulfuric Acid",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 16,
+  "recipe": [
+   "sulfur",
+   "water"
+  ],
+  "fact": "The most produced industrial chemical."
+ },
+ {
+  "id": "nitric_acid",
+  "name": "Nitric Acid",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 10,
+  "recipe": [
+   "ammonia",
+   "oxygen"
+  ],
+  "fact": "Key to fertilizers and explosives."
+ },
+ {
+  "id": "hydrochloric_acid",
+  "name": "Hydrochloric Acid",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 17,
+  "recipe": [
+   "chlorine",
+   "hydrogen"
+  ],
+  "fact": "Your stomach makes it."
+ },
+ {
+  "id": "saltpeter",
+  "name": "Saltpeter",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 19,
+  "recipe": [
+   "potassium",
+   "nitric_acid"
+  ],
+  "fact": "Once scraped from cave walls for gunpowder."
+ },
+ {
+  "id": "charcoal",
+  "name": "Charcoal",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "wood",
+   "fire"
+  ],
+  "fact": "Nearly pure carbon."
+ },
+ {
+  "id": "gunpowder",
+  "name": "Gunpowder",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 5,
+  "depth": 28,
+  "recipe": [
+   "saltpeter",
+   "charcoal"
+  ],
+  "fact": "Invented by Chinese alchemists seeking immortality."
+ },
+ {
+  "id": "sugar",
+  "name": "Sugar",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 9,
+  "recipe": [
+   "carbon",
+   "water"
+  ],
+  "fact": "Glucose is the fuel of nearly all cells."
+ },
+ {
+  "id": "ethylene",
+  "name": "Ethylene",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 7,
+  "recipe": [
+   "methane",
+   "methane"
+  ],
+  "fact": "Plants use it as a ripening hormone."
+ },
+ {
+  "id": "benzene",
+  "name": "Benzene",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 2,
+  "depth": 8,
+  "recipe": [
+   "ethylene",
+   "methane"
+  ],
+  "fact": "Kekulé said he dreamed of its ring shape."
+ },
+ {
+  "id": "polyethylene",
+  "name": "Polyethylene",
+  "category": "materials",
+  "subcategory": "polymer",
+  "tier": 4,
+  "depth": 8,
+  "recipe": [
+   "ethylene",
+   "ethylene"
+  ],
+  "fact": "The world's most common plastic."
+ },
+ {
+  "id": "nylon",
+  "name": "Nylon",
+  "category": "materials",
+  "subcategory": "polymer",
+  "tier": 4,
+  "depth": 10,
+  "recipe": [
+   "ammonia",
+   "ethylene"
+  ],
+  "fact": "First sold as toothbrush bristles in 1938."
+ },
+ {
+  "id": "kevlar",
+  "name": "Kevlar",
+  "category": "materials",
+  "subcategory": "polymer",
+  "tier": 4,
+  "depth": 11,
+  "recipe": [
+   "nylon",
+   "benzene"
+  ],
+  "fact": "Five times stronger than steel by weight."
+ },
+ {
+  "id": "silicone",
+  "name": "Silicone",
+  "category": "materials",
+  "subcategory": "polymer",
+  "tier": 4,
+  "depth": 14,
+  "recipe": [
+   "silicon",
+   "methane"
+  ],
+  "fact": "Stays flexible from -50 to 200 °C."
+ },
+ {
+  "id": "latex",
+  "name": "Latex",
+  "category": "materials",
+  "subcategory": "polymer",
+  "tier": 5,
+  "depth": 26,
+  "recipe": [
+   "rubber_tree",
+   "rubber_tree"
+  ],
+  "fact": "Milky sap that drips from rubber trees."
+ },
+ {
+  "id": "rubber",
+  "name": "Vulcanized Rubber",
+  "category": "materials",
+  "subcategory": "polymer",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "latex",
+   "sulfur"
+  ],
+  "fact": "Goodyear discovered vulcanization by accident."
+ },
+ {
+  "id": "paper",
+  "name": "Paper",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 5,
+  "depth": 26,
+  "recipe": [
+   "wood",
+   "water"
+  ],
+  "fact": "Invented in China around 100 CE."
+ },
+ {
+  "id": "crude_oil",
+  "name": "Crude Oil",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 5,
+  "depth": 23,
+  "recipe": [
+   "plankton",
+   "sand"
+  ],
+  "fact": "Mostly ancient marine plankton, not dinosaurs."
+ },
+ {
+  "id": "petrol",
+  "name": "Petrol",
+  "category": "materials",
+  "subcategory": "compound",
+  "tier": 5,
+  "depth": 27,
+  "recipe": [
+   "crude_oil",
+   "fire"
+  ],
+  "fact": "Refined by heating and distilling crude oil."
+ },
+ {
+  "id": "doped_silicon",
+  "name": "Doped Silicon",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 3,
+  "depth": 15,
+  "recipe": [
+   "silicon",
+   "phosphorus"
+  ],
+  "fact": "A few impurity atoms per million transform silicon."
+ },
+ {
+  "id": "enriched_uranium",
+  "name": "Enriched Uranium",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 8,
+  "depth": 92,
+  "recipe": [
+   "uranium",
+   "centrifuge"
+  ],
+  "fact": "Reactor fuel is only ~4% U-235."
+ },
+ {
+  "id": "optical_fiber",
+  "name": "Optical Fiber",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 8,
+  "depth": 32,
+  "recipe": [
+   "glass",
+   "laser"
+  ],
+  "fact": "Carries most of the internet as light."
+ },
+ {
+  "id": "carbon_nanotube",
+  "name": "Carbon Nanotube",
+  "category": "materials",
+  "subcategory": "material",
+  "tier": 7,
+  "depth": 31,
+  "recipe": [
+   "graphene",
+   "graphene"
+  ],
+  "fact": "Rolled graphene: the dream cable for a space elevator."
+ }
+]
